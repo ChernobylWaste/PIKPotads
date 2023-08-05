@@ -39,7 +39,18 @@ header {
   padding: 5px 10px;
   text-decoration: none;
   color: #585858;
-  font-family: Rubik;
+  font-family: Roboto;
 }
 
+.darken-image {
+  filter: brightness(60%) saturate(150%) contrast(80%) hue-rotate(0deg);;
+}
+
+@font-face {
+  font-family: 'Khula'; /* Nama untuk font, Anda dapat mengganti 'NamaFont' sesuai preferensi Anda */
+  src: url('Assets/Fonts/Khula-Regular.ttf') format('truetype'); /* Ganti 'lokasi/font.woff' dengan path ke file font di server Anda */
+  /* Jika font memiliki format .woff2, Anda juga bisa menambahkannya seperti berikut: */
+  /* src: url('lokasi/font.woff2') format('woff2'), url('lokasi/font.woff') format('woff'); */
+  /* Format yang lebih baru (woff2) lebih disarankan karena lebih efisien. */
+}
 
