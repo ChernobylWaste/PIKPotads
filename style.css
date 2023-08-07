@@ -101,4 +101,43 @@ header {
 }
 
 
-/* End of navbar */
+/* End of content */
+
+/* Footer */
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 10%;
+  background-color: rgba(0, 147, 221, 0.80);;
+  color: #585858;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer img{
+  float: left;
+  margin: 5px;
+}
+
+.footer li {
+  list-style: none;
+  align-items: center;
+  letter-spacing: -0.342px;
+  margin: 0 10px;
+}
+
+.footer li a{
+  text-decoration: none;
+  color: #585858;
+}
+
+.footer li a:hover {
+  color: white;
+}
+
+/* End of Footer */
