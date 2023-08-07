@@ -71,6 +71,17 @@ header {
   font-weight: 1000;
   font-size: xx-large;
 }
+
+.katafotokiriFAQ {
+  position: absolute;
+  top: 235px;
+  left: 50%; /* Pusat horisontal */
+  transform: translateX(-50%); /* Menggeser sejauh setengah lebar elemen */
+  color: white;
+  font-weight: 1000;
+  font-size: xx-large;
+  text-align: center; /* Pusatkan teks secara horizontal */
+}
 /* End Of Navbar */
 
 /* Content */
@@ -164,6 +175,16 @@ header {
 
 .footer li a:hover {
   color: white;
+}
+
+.rectangle-17-ZE1 {
+  width: 10rem;
+  height: 2.8rem;
+  position: absolute;
+  left: 120.7rem;
+  top: 1.1rem;
+  background-color: #c0044c;
+  border-radius: 1rem;
 }
 
 /* End of Footer */
