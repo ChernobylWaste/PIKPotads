@@ -300,4 +300,13 @@ footer{
   }
 }
 
+.sticky-top {
+  width: 360px; /* Atur lebar sesuai kebutuhan */
+  height: 155px; /* Atur tinggi sesuai kebutuhan */
+  /* Atur warna latar belakang sesuai kebutuhan */
+  border: 1px solid #ccc; /* Atur border sesuai kebutuhan */
+  padding: 10px; /* Atur padding sesuai kebutuhan */
+  box-sizing: border-box; /* Menghitung border dan padding dalam total lebar/tinggi */
+}
+
 /* End of Card Tim */
