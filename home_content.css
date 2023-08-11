@@ -195,4 +195,12 @@ a {
   .welcome > h1 {
     font-size: 30px;
   }
+
+  .general_content > div > h1 {
+    font-size: 30px;
+  }
+
+  .content > p {
+    font-size: 16px;
+  }
 }
