@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10%;
+    background-color: #c0044c;
+    color: white;
+    font-family: Abril Fatface;
+  }
+  
+  .donasi {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .donasi:hover {
+    color: #204ae1;
+    text-shadow: 3px 2px 3px #585858;
+  }
+  
+  .logo {
+    cursor: pointer;
+  }
+  
+  .navbar {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar li {
+    margin: 0 10px;
+  }
+  
+  .navbar li a:hover {
+    color: rgba(237, 112, 154, 0.9);
+  }
+  
+  .navbar a {
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #585858;
+    font-family: Roboto;
+  }
+  
+  .darken-image {
+    filter: brightness(60%) saturate(150%) contrast(80%) hue-rotate(0deg);
+  }
+  
+  @font-face {
+    font-family: "Khula";
+    src: url("Assets/Fonts/Khula-Regular.ttf") format("truetype");
+  }
+
+  .katafotokiri {
+    position: absolute;
+    top: 235px;
+    left: 100px;
+    color: white;
+    font-weight: 1000;
+    font-size: xx-large;
+  }
+  
+  .katafotokiriFAQ {
+    position: absolute;
+    top: 235px;
+    left: 50%; /* Pusat horisontal */
+    transform: translateX(-50%); /* Menggeser sejauh setengah lebar elemen */
+    color: white;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-align: center; /* Pusatkan teks secara horizontal */
+  }
+  /* End Of Navbar */
+
+/* Start of Content */
+.subcontent {
+    color: #204ae1;
+    text-align: justify;
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 30px */
+    letter-spacing: -0.38px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+.img-containerkiri {
+    padding: 20px;
+  }
+  .penjelasankanan{
+    text-align: left;
+  }
+
+  .penjelasankanan ul li{
+    text-align: left;
+  }
+  .penjelasan {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .img-container {
+    text-align: center;
+  }
+
+  .img-container img {
+    max-width: 100%;
+    height: auto;
+  }
+/* End of Content */
+
+/* Footer */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  background-color: rgba(192, 19, 88, 0.9);
+  font-family: "Khula";
+
+}
+
+.footerContainer{
+  width: 100%;
+  padding: 2px;
+}
+
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 40%;
+}
+
+.socialIcons a i{
+  font-size: 2em;
+  color: #111;
+  opacity: 0.9;
+}
+
+/* Hover Footer */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+
+}
+
+.footerNav{
+  margin: 20px 0;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.footerNav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 100;
+  color: rgba(0, 147, 221, 0.80);;
+}
+
+.footerBottom{
+  background-color: #c0044c;
+  padding: 8px;
+  text-align: center;
+  font-size: larger;
+}
+
+.footerBottom p{
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .footerNav ul{
+      flex-direction: column;
+  }
+  .footerNav ul li{
+      width: 100%;
+      text-align: center;
+      margin: 10px;
+      margin-left: -0.3cm;
+  }
+}
+/* End of Footer */
