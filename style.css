@@ -309,4 +309,11 @@ footer{
   box-sizing: border-box; /* Menghitung border dan padding dalam total lebar/tinggi */
 }
 
+.buttoncolourFAQ{
+  background-color: rgb(218, 218, 218);
+  color: black;
+  outline: solid white;
+  outline-offset: 0px;
+}
+
 /* End of Card Tim */
