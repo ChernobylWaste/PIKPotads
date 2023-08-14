@@ -65,12 +65,12 @@
 
   .katafotokiri {
     position: absolute;
-    top: 235px;
-    left: 100px;
+    top: 29vh; /* Menggunakan unit vh */
+    left: 10vw; /* Menggunakan unit vw */
     color: white;
     font-weight: 1000;
-    font-size: xx-large;
-  }
+    font-size: 1.6vw; /* Menggunakan unit vw untuk ukuran font */
+}
   
   .katafotokiriFAQ {
     position: absolute;
@@ -109,6 +109,7 @@
     text-align: left;
   }
   .penjelasan {
+    color: #204ae1;
     text-align: justify;
     margin-left: 10%;
     margin-right: 10%;
@@ -219,3 +220,41 @@ footer{
   }
 }
 /* End of Footer */
+
+.judul {
+  color: #c0044c;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+.edukasi > h1 {
+  color: #c01358;
+  text-align: center;
+  font-family: Rubik One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 60px */
+  letter-spacing: -0.76px;
+}
+
+
+.content {
+  border-radius: 20px;
+  border: 1px none none;
+  background: #ED709A;
+  padding: 5vh;
+}
+
+.general_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: auto;
+}
