@@ -537,7 +537,7 @@
     border-radius: 5px;
   }
 
-  .scroll-able {
+  .scroll_able {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;

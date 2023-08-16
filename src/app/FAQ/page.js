@@ -1,3 +1,5 @@
+import style from "@/app/FAQ/FAQ.module.css";
+
 export default function faq() {
   return (
     <>

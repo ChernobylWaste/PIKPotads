@@ -1,11 +1,31 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "@/components/navbar.module.css";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
     <>
       <div className={style.donasi}>
-        <h1>Donasi Klik Disini</h1>
+        <a href="http://">
+          <h3>Donasi Klik Disini</h3>
+        </a>
+      </div>
+
+      <div className={style.navbar}>
+        <div className={style.logo}>
+          <a href="/">
+            <Image src="/Logo Potads.png" alt="Logo" width={80} height={80} />
+          </a>
+        </div>
+
+        <div className={style.navigation}>
+          <a href="/">Beranda</a>
+          <a href="/Edukasi">Edukasi</a>
+          <a href="/TentangKami">Tentang</a>
+          <a href="/FAQ">FAQ</a>
+          <a href="/Kegiatan">Kegiatan</a>
+          <a href="/Tim">Tim</a>
+        </div>
       </div>
     </>
   );
@@ -23,7 +43,7 @@ export default function Navbar() {
   //     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   //       <div class="container-fluid">
   //         <a class="logo" href="/">
-  //           <img src="/Logo Potads.png" alt="logo" />
+  //           <Image src="/Logo Potads.png" alt="logo" width={80} height={80} />
   //         </a>
   //         <button
   //           class="navbar-toggler"
