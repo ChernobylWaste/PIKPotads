@@ -1,7 +1,9 @@
+"use client";
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import style from "./home.module.css";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   return (
@@ -129,7 +131,7 @@ export default function Home() {
                 <img src="/Arrow_Vector.svg" alt="Expand" />
               </button>
             </div>
-            <p id="expanded">
+            <p id="1">
               Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
               pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
               Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut

@@ -1,7 +1,47 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 export default function Kegiatan() {
   return (
     <>
+      <div class="container-fluid">
+        <div
+          class="card text-center"
+          style={{ "background-color": "#24b8e5", color: "white" }}
+        >
+          <div class="card-body">
+            <h5 class="card-title">
+              Ingin Menjadi Bagian PIK POTADS JABAR? Klik Link Dibawah Ini
+              Sesuai Usia Anak Anda
+            </h5>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "1fr 1fr 1fr",
+                gap: "2vw",
+              }}
+            >
+              <a
+                href="https://bit.ly/DataAnggotaPotadsJabar0-6thn"
+                class="btn btn-primary"
+              >
+                0 - 6 Tahun
+              </a>
+              <a
+                href="https://bit.ly/DataAnggotaPotadsJabar6-15thn"
+                class="btn btn-primary"
+              >
+                6 - 15 Tahun
+              </a>
+              <a
+                href="https://bit.ly/DataAnggotaPotadsJabar15thplus"
+                class="btn btn-primary"
+              >
+                Lebih dari 15 Tahun
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Events
@@ -10,11 +50,7 @@ export default function Kegiatan() {
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
-              <img
-                src="../Assets/Pengurus.jpg"
-                class="card-img-top"
-                alt="..."
-              />
+              <img src="/Pengurus.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue" }}>
                   TIRAMISU CAKE
@@ -75,7 +111,7 @@ export default function Kegiatan() {
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a href="/Kegiatan/ipen/DSAM/2023">Info Lebih Lanjut</a>
                 </button>
               </div>
             </div>

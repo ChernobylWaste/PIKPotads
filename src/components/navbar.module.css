@@ -1,2 +1,49 @@
 .donasi {
+  background: #c0044c;
+  text-align: center;
+  padding: 1vh;
+  position: sticky;
+}
+
+.donasi > a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Abril Fatface;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 31.5px */
+  letter-spacing: -0.399px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.logo {
+  padding: 0.5vw;
+  margin: auto;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+}
+
+.navigation > a {
+  text-decoration: none;
+  color: #585858;
+  font-family: Rubik;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 31.5px */
+  letter-spacing: -0.399px;
+}
+
+.navigation > a:hover {
+  text-decoration: underline;
+  color: #c0044c;
 }
