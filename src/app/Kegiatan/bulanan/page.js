@@ -10,7 +10,12 @@ export default function bulanan() {
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
-              <img src="" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 1/Produk/ProdukB1 (9).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue" }}>
                   Pelatihan Jumputan Batch 1
@@ -22,7 +27,7 @@ export default function bulanan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/kbulan/JumputanB1.html"
+                    href="/Kegiatan/bulanan/JumputanB1/"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -35,9 +40,10 @@ export default function bulanan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/ls (1).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (2).jpg"
                 class="card-img-top"
                 alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue" }}>
@@ -50,7 +56,7 @@ export default function bulanan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/kbulan/JumputanB2.html"
+                    href="/Kegiatan/bulanan/JumputanB2"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut

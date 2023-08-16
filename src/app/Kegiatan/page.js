@@ -43,6 +43,7 @@ export default function Kegiatan() {
         </div>
       </div>
       <div class="container py-5">
+        {/* Start of Events */}
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Events
         </h1>
@@ -132,7 +133,9 @@ export default function Kegiatan() {
           </button>
         </div>
       </div>
+      {/* End of Events */}
 
+      {/* Start of Kegiatan Rutin */}
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Kegiatan Rutin
@@ -223,7 +226,9 @@ export default function Kegiatan() {
           </button>
         </div>
       </div>
+      {/* End of Kegiatan Rutin */}
 
+      {/* Start of Kegiatan Bulanan */}
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Kegiatan Bulanan
@@ -305,13 +310,14 @@ export default function Kegiatan() {
             style={{ "background-color": "#C0044C" }}
           >
             <a
-              href="kbulanan.html"
+              href="/Kegiatan/bulanan/"
               style={{ "text-decoration": "none", color: "white" }}
             >
               Info Lebih Lanjut
             </a>
           </button>
         </div>
+        {/* End of Kegiatan Bulanan */}
       </div>
     </>
   );
