@@ -27,3 +27,41 @@
         width: 230px;
     }
   }
+
+  .katafotokiriFAQ {
+    position: absolute;
+    top: 283px;
+    left: 50%; /* Pusat horisontal */
+    transform: translateX(-50%); /* Menggeser sejauh setengah lebar elemen */
+    color: white;
+    font-weight: 1000;
+    font-size: xx-large;
+    text-align: center; /* Pusatkan teks secara horizontal */
+    font-family: "Khula";
+  }
+
+  @font-face {
+    font-family: "Khula";
+    src: url("/Fonts/Khula-Regular.ttf") format("truetype");
+    src: url("/Fonts/Khula-Bold.ttf") format("truetype");
+  }
+
+  .buttoncolourFAQ{
+    background-color: rgb(218, 218, 218);
+    color: black;
+    outline: solid white;
+    outline-offset: 0px;
+  }
+
+  .expand {
+    color: rgba(32, 74, 225, 0.85);
+    text-align: center;
+    font-family: "Khula" Black;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: -0.285px;
+    margin: 3vh;
+
+  }

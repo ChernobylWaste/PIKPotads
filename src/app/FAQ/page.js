@@ -1,32 +1,82 @@
+"use client";
 import style from "@/app/FAQ/FAQ.module.css";
+import { useState } from "react";
+import { Button, Collapse } from "react-bootstrap";
 
 export default function faq() {
+  const [isActive, setIsActive] = useState({
+    faq1: false,
+    faq2: false,
+    faq3: false,
+    faq4: false,
+    faq5: false,
+    faq6: false,
+    faq7: false,
+    faq8: false,
+    faq9: false,
+    faq10: false,
+    faq11: false,
+    faq12: false,
+  });
+
+  // const ButtonCollapse = () => {
+  //   setIsActive(!isActive);
+  // };
+
   return (
     <>
+      <div
+        class="container-fluid text-light"
+        style={{ height: "290px", backgroundColor: "#25265E" }}
+        // style="height: 290px; background-color: #25265E;"
+      >
+        <div>
+          <h1 class={style.katafotokiriFAQ}>Frequently Asked Questions</h1>
+        </div>
+      </div>
       <p
         class="row justify-content-center"
-        style={{ "font-size": "larger", "font-weight": "600" }}
+        style={{
+          "font-size": "larger",
+          "font-weight": "600",
+          margin: "7vh",
+        }}
       >
         Pertanyaan yang sering ditanyakan oleh orang-orang mengenai Down
         Syndrome
       </p>
 
+      <div
+        className="container"
+        style={{
+          margin: "7vh",
+        }}
+      ></div>
+
       <div class="container-fluid px-4">
-        <div class="row  justify-content-center">
-          <div class="col-md-3  text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-3 text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq1;
+                  setIsActive({ ...isActive, faq1: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample"
               >
                 Apa yang dimaksud dengan Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample">
+            <div
+              class="collapse"
+              id="collapseExample"
+              className={`${style.expand} ${isActive.faq1 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Down syndrome adalah suatu kondisi akibat perkembangan kromosom
                 21 yang tidak normal. Istilah Down syndrome merujuk pada nama
@@ -36,20 +86,29 @@ export default function faq() {
               </div>
             </div>
           </div>
+
           <div class="col-md-3 text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample1"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq2;
+                  setIsActive({ ...isActive, faq2: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample1"
               >
                 Apa penyebab daripada Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample1">
+            <div
+              class="collapse"
+              id="collapseExample1"
+              className={`${style.expand} ${isActive.faq2 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Down syndrome disebabkan oleh adanya pembelahan sel yang tidak
                 normal pada saat fase embrio (nondisjunction embrio). Pada
@@ -63,17 +122,25 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample2"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq3;
+                  setIsActive({ ...isActive, faq3: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample2"
               >
                 Apakah kondisi Down Syndrome bisa terdeteksi?
               </a>
             </p>
-            <div class="collapse" id="collapseExample2">
+            <div
+              class="collapse"
+              id="collapseExample2"
+              className={`${style.expand} ${isActive.faq3 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi
                 melalui pemeriksaan USG pada bulan-bulan awal kehamilan. Bila
@@ -85,17 +152,25 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample3"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq4;
+                  setIsActive({ ...isActive, faq4: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample3"
               >
                 Apakah Down Syndrome itu sebuah penyakit?
               </a>
             </p>
-            <div class="collapse" id="collapseExample3">
+            <div
+              class="collapse"
+              id="collapseExample3"
+              className={`${style.expand} ${isActive.faq4 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Down syndrome BUKAN penyakit, maka Down syndrome TIDAK bisa
                 diobati dan TIDAK bisa menular. Bayi yang terlahir Down syndrome
@@ -114,17 +189,25 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample4"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq5;
+                  setIsActive({ ...isActive, faq5: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample4"
               >
                 Apa yang harus dilakukan oleh orang tua?
               </a>
             </p>
-            <div class="collapse" id="collapseExample4">
+            <div
+              class="collapse"
+              id="collapseExample4"
+              className={`${style.expand} ${isActive.faq5 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Anak Down syndrome memiliki kemungkinan lahir dengan masalah
                 fisik dan mengalami keterlambatan pada pertumbuhan fisik. Segera
@@ -138,17 +221,25 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample5"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq6;
+                  setIsActive({ ...isActive, faq6: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample5"
               >
                 Apakah anak Down syndrome dapat berbicara?
               </a>
             </p>
-            <div class="collapse" id="collapseExample5">
+            <div
+              class="collapse"
+              id="collapseExample5"
+              className={`${style.expand} ${isActive.faq6 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Kemampuan berbicara anak Down syndrome umumnya mengalami
                 hambatan karena kemampuan saraf dan motoriknya tidak berkembang
@@ -162,17 +253,25 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample6"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq7;
+                  setIsActive({ ...isActive, faq7: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample6"
               >
                 Apakah anak Down syndrome bisa sekolah?
               </a>
             </p>
-            <div class="collapse" id="collapseExample6">
+            <div
+              class="collapse"
+              id="collapseExample6"
+              className={`${style.expand} ${isActive.faq7 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Pada umumnya, anak Down syndrome dapat mengikuti pendidikan
                 seperti anak lainnya. Pada perkembangannya, anak Down syndrome
@@ -185,22 +284,30 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample7"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq8;
+                  setIsActive({ ...isActive, faq8: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample7"
               >
                 Apakah penyandang Down syndrome dewasa bisa bekerja?
               </a>
             </p>
-            <div class="collapse" id="collapseExample7">
+            <div
+              class="collapse"
+              id="collapseExample7"
+              className={`${style.expand} ${isActive.faq8 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 Dengan penanganan yang tepat dan juga dukungan dari lingkungan
                 sekitar, penyandang Down syndrome dapat hidup mandiri baik
                 sebagai individu maupun sebagai bagian dari masyarakat. Mereka
-                juga dapat memiliki suatu profesi dan memperoleh penghasilan
+                juga dapat memiliki suatu profesi dan mempetypeh penghasilan
                 sendiri.
               </div>
             </div>
@@ -213,27 +320,47 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample8"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq9;
+                  setIsActive({ ...isActive, faq9: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample8"
               >
                 Apa ciri fisik anak Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample8">
+            <div
+              class="collapse"
+              id="collapseExample8"
+              className={`${style.expand} ${isActive.faq9 ? "flex" : "hidden"}`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 <ul class="list-group mx-2" style={{ "text-align": "left" }}>
-                  <li>tampilan wajah yang khas</li>
-                  <li>tulang hidung rata</li>
-                  <li>ukuran mulut kecil dengan lidah tebal dan menjulur</li>
-                  <li>telinga yang kecil dan letaknya agak ke bawah</li>
-                  <li>ukuran kepala lebih kecil</li>
-                  <li>tinggi badan lebih pendek</li>
-                  <li>otot-otot lemas dan kurang terbentuk</li>
-                  <li>tinggi badan lebih pendek</li>
+                  <li style={{ margin: "1vh" }}>1. Tampilan wajah yang khas</li>
+                  <li style={{ margin: "1vh" }}>2. Tulang hidung rata</li>
+                  <li style={{ margin: "1vh" }}>
+                    3. Ukuran mulut kecil dengan lidah tebal dan menjulur
+                  </li>
+                  <li style={{ margin: "1vh" }}>
+                    4. Telinga yang kecil dan letaknya agak ke bawah
+                  </li>
+                  <li style={{ margin: "1vh" }}>
+                    5. Ukuran kepala lebih kecil
+                  </li>
+                  <li style={{ margin: "1vh" }}>
+                    6. Tinggi badan lebih pendek
+                  </li>
+                  <li style={{ margin: "1vh" }}>
+                    7. Otot-otot lemas dan kurang terbentuk
+                  </li>
+                  <li style={{ margin: "1vh" }}>
+                    8. Tinggi badan lebih pendek
+                  </li>
                 </ul>
               </div>
             </div>
@@ -241,17 +368,27 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample10"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq10;
+                  setIsActive({ ...isActive, faq10: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample10"
               >
                 Apa saja jenis Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample10">
+            <div
+              class="collapse"
+              id="collapseExample10"
+              className={`${style.expand} ${
+                isActive.faq10 ? "flex" : "hidden"
+              }`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 <ul class="list-group mx-2" style={{ "text-align": "left" }}>
                   <li style={{ "font-weight": "660" }}>Trisomi 21</li>
@@ -280,10 +417,14 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample11"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq11;
+                  setIsActive({ ...isActive, faq11: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample11"
               >
@@ -291,7 +432,13 @@ export default function faq() {
                 dengan Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample11">
+            <div
+              class="collapse"
+              id="collapseExample11"
+              className={`${style.expand} ${
+                isActive.faq11 ? "flex" : "hidden"
+              }`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 <ul class="list-group mx-2" style={{ "text-align": "left" }}>
                   <li style={{ "font-weight": "660" }}>Usia</li>
@@ -318,17 +465,27 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class="btn btn-primary buttoncolourFAQ"
+                class={`btn btn-primary ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample12"
-                role="button"
+                type="button"
+                onClick={() => {
+                  const temp = !isActive.faq12;
+                  setIsActive({ ...isActive, faq12: temp });
+                }}
                 aria-expanded="false"
                 aria-controls="collapseExample12"
               >
                 Bagaimana perkembangan anak Down Syndrome?
               </a>
             </p>
-            <div class="collapse" id="collapseExample12">
+            <div
+              class="collapse"
+              id="collapseExample12"
+              className={`${style.expand} ${
+                isActive.faq12 ? "flex" : "hidden"
+              }`}
+            >
               <div class="card cardDesk card-body mx-auto">
                 <ul class="list-group mx-2" style={{ "text-align": "left" }}>
                   <li>
