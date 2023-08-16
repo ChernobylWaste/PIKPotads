@@ -111,7 +111,7 @@ export default function Kegiatan() {
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  <a href="/Kegiatan/ipen/DSAM/2023">Info Lebih Lanjut</a>
+                  <a href="/Kegiatan/ipen/">Info Lebih Lanjut</a>
                 </button>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Kegiatan() {
             style={{ "background-color": "#C0044C" }}
           >
             <a
-              href="events.html"
+              href="/Kegiatan/ipen/"
               style={{ "text-decoration": "none", color: "white" }}
             >
               Info Lebih Lanjut
