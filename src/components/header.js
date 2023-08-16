@@ -23,7 +23,6 @@ export default function Navbar() {
             <Image src="/Logo Potads.png" alt="Logo" width={80} height={80} />
           </a>
         </div>
-
         <button
           type="button"
           onClick={() => setIsActive(!isActive)}
@@ -32,7 +31,7 @@ export default function Navbar() {
           <Image src={burger} alt="burger" width={60} height={60} />
         </button>
 
-        <div className={`${style.navigation} ${isActive ? "flex" : ""}`}>
+        <div className={`${style.navigation} ${isActive ? "flex" : "hidden"}`}>
           <Link href="/">Beranda</Link>
           <Link href="/Edukasi">Edukasi</Link>
           <Link href="/TentangKami">Tentang</Link>
