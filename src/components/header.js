@@ -31,7 +31,7 @@ export default function Navbar() {
           <Image src={burger} alt="burger" width={60} height={60} />
         </button>
 
-        <div className={`${style.navigation} ${isActive ? "flex" : "hidden"}`}>
+        <div className={`${style.navigation} ${isActive ? "flex" : ""}`}>
           <Link href="/">Beranda</Link>
           <Link href="/Edukasi">Edukasi</Link>
           <Link href="/TentangKami">Tentang</Link>

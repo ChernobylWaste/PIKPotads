@@ -135,7 +135,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/Gathering 20 22/Gathering (1).jpg"
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
