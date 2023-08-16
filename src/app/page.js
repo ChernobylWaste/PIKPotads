@@ -6,6 +6,10 @@ import style from "./home.module.css";
 import { useEffect, useState } from "react";
 
 export default function Home() {
+  const [active1, setActive1] = useState(false);
+  const [active2, setActive2] = useState(false);
+  const [active3, setActive3] = useState(false);
+
   return (
     <>
       <div class={style.welcome}>
@@ -121,17 +125,22 @@ export default function Home() {
 
         <div class={style.faq_content}>
           <h1>FAQ</h1>
-          <div class={style.freq} id="1">
-            <div class={style.expandable}>
-              <h4>
-                Apa Saja Faktor Yang Meningkatkan Resiko Ibu Hamil Mengandung
-                Bayi Down Syndrome?
-              </h4>
-              <button id="expand" onclick="" type="button">
-                <img src="/Arrow_Vector.svg" alt="Expand" />
-              </button>
-            </div>
-            <p id="1">
+          <div class={style.freq}>
+            <h4>
+              Apa Saja Faktor Yang Meningkatkan Resiko Ibu Hamil Mengandung Bayi
+              Down Syndrome?
+            </h4>
+
+            <button
+              type="button"
+              onClick={() => {
+                setActive1(!active1);
+              }}
+            >
+              <img src="/Arrow_Vector.svg" alt="Expand" />
+            </button>
+
+            <p className={`${style.expand} ${active1 ? "flex" : "hidden"}`}>
               Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
               pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
               Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
@@ -139,14 +148,17 @@ export default function Home() {
             </p>
           </div>
           <div class={style.freq} id="2">
-            <div class={style.expandable}>
-              <h4>Apakah Kondisi Down Syndrome Bisa Terdeteksi?</h4>
-              <button id="expand" onclick="" type="button">
-                <img src="/Arrow_Vector.svg" alt="Expand" />
-              </button>
-            </div>
+            <h4>Apakah Kondisi Down Syndrome Bisa Terdeteksi?</h4>
+            <button
+              type="button"
+              onClick={() => {
+                setActive2(!active2);
+              }}
+            >
+              <img src="/Arrow_Vector.svg" alt="Expand" />
+            </button>
 
-            <p id="expanded">
+            <p className={`${style.expand} ${active2 ? "flex" : "hidden"}`}>
               Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
               pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
               Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
@@ -154,13 +166,16 @@ export default function Home() {
             </p>
           </div>
           <div class={style.freq} id="3">
-            <div class={style.expandable}>
-              <h4>Apakah Down Syndrome Sebuah Penyakit?</h4>
-              <button id="expand" onclick="" type="button">
-                <img src="/Arrow_Vector.svg" alt="Expand" />
-              </button>
-            </div>
-            <p id="expanded">
+            <h4>Apakah Down Syndrome Sebuah Penyakit?</h4>
+            <button
+              type="button"
+              onClick={() => {
+                setActive3(!active3);
+              }}
+            >
+              <img src="/Arrow_Vector.svg" alt="Expand" />
+            </button>
+            <p className={`${style.expand} ${active3 ? "flex" : "hidden"}`}>
               Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
               pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
               Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
