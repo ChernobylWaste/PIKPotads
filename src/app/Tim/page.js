@@ -75,7 +75,11 @@ export default function tim() {
 
       <div style={{ textAlign: "center", margin: "20px" }}>
         <button type="button" class="btn btn-primary">
-          <a href="" style={{ textDecoration: "none", color: "aliceblue" }}>
+          <a
+            href="https://docs.google.com/forms/d/1AHAxrIM-oR2cMBkNttrPs4ESx94iCoikQqga5oaiIwE/viewform?edit_requested=true"
+            style={{ textDecoration: "none", color: "aliceblue" }}
+            target="_blank"
+          >
             Daftar untuk menjadi volunteer
           </a>
         </button>
