@@ -221,13 +221,7 @@ a {
   margin: 3vh;
 }
 
-.freq .expand {
-  border: none;
-  background-color: inherit;
-  margin-right: 3vw;
-}
-
-.faq-content .h1 {
+.faq_content .h1 {
   margin: 5vh;
 }
 
