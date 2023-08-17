@@ -3,6 +3,17 @@
 export default function Kegiatan() {
   return (
     <>
+      {/* Banner */}
+      <img
+        src="/Kegiatan/headerkegiatan.png"
+        alt="Deskripsi Gambar"
+        class="img-fluid darken-image"
+        style={{ width: "100%" }}
+      />
+      <div class="katafotokiri">KEGIATAN</div>
+      {/* End of Banner */}
+
+      {/* Start of Pendaftaran */}
       <div class="container-fluid">
         <div
           class="card text-center"
@@ -42,31 +53,42 @@ export default function Kegiatan() {
           </div>
         </div>
       </div>
+      {/* End of Pendaftaran */}
+
+      {/* Start of Events */}
       <div class="container py-5">
-        {/* Start of Events */}
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Events
+          EVENTS
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
-              <img src="/Pengurus.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/Ipen/DSAM2023/ls pj (1) 1.png"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "3.5vh" }}
+                >
+                  DSAM 2023
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/ipen/DSAM/2023"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
@@ -74,22 +96,28 @@ export default function Kegiatan() {
 
           <div class="col">
             <div class="card">
-              <img src="/Foto_Beranda.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (8).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Road To HDSD 2023 (Bersih - Bersih Telinga)
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/ipen/RTHDSD23"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
@@ -97,28 +125,33 @@ export default function Kegiatan() {
 
           <div class="col">
             <div class="card">
-              <img src="/Foto Beranda2.JPG" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (6).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Hari Down Syndrom Dunia 2023
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  <a href="/Kegiatan/ipen/">Info Lebih Lanjut</a>
+                  <a
+                    href="/Kegiatan/ipen/HDSD/2023"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
           </div>
         </div>
-
         <div class="mb-5 d-flex justify-content-around">
           <button
             class="btn btn-secondary"
@@ -144,22 +177,28 @@ export default function Kegiatan() {
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
-              <img src="/Pengurus.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/krutin/cookingB1/Proses/ls (2).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Pelatihan : Kelas Memasak
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/krutin/MemasakBatch1"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
@@ -167,22 +206,28 @@ export default function Kegiatan() {
 
           <div class="col">
             <div class="card">
-              <img src="/Foto_Beranda.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/krutin/playclass/ls (5).png"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Play Class Usia 5 - 12 Tahun
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/krutin/PlayClass"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
@@ -190,35 +235,40 @@ export default function Kegiatan() {
 
           <div class="col">
             <div class="card">
-              <img src="/Foto Beranda2.JPG" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/krutin/djembe/ls (4).png"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Pelatihan Seni : Djembe
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/krutin/Djembe"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
           </div>
         </div>
-
         <div class="mb-5 d-flex justify-content-around">
           <button
             class="btn btn-secondary"
             style={{ "background-color": "#C0044C" }}
           >
             <a
-              href="krutin.html"
+              href="/Kegiatan/krutin"
               style={{ "text-decoration": "none", color: "white" }}
             >
               Info Lebih Lanjut
@@ -226,7 +276,7 @@ export default function Kegiatan() {
           </button>
         </div>
       </div>
-      {/* End of Kegiatan Rutin */}
+      {/* End of krutin*/}
 
       {/* Start of Kegiatan Bulanan */}
       <div class="container py-5">
@@ -237,22 +287,28 @@ export default function Kegiatan() {
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
-              <img src="/Pengurus.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 1/Proses/prosesb1 (13).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Jumputan Batch 1
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/bulanan/JumputanB1"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
@@ -260,65 +316,35 @@ export default function Kegiatan() {
 
           <div class="col">
             <div class="card">
-              <img src="/Foto_Beranda.jpg" class="card-img-top" alt="..." />
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (2) 1.jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Jumputan Batch 2
                 </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
               </div>
               <div class="mb-5 d-flex justify-content-around">
                 <button
                   class="btn btn-secondary"
                   style={{ "background-color": "blue" }}
                 >
-                  Info Lebih Lanjut
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img src="/Foto Beranda2.JPG" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
-                  TIRAMISU CAKE
-                </h5>
-                <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Laboriosam dignissimos accusantium amet similique velit iste.
-                </p>
-              </div>
-              <div class="mb-5 d-flex justify-content-around">
-                <button
-                  class="btn btn-secondary"
-                  style={{ "background-color": "blue" }}
-                >
-                  Info Lebih Lanjut
+                  <a
+                    href="/Kegiatan/bulanan/JumputanB2"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <div class="mb-5 d-flex justify-content-around">
-          <button
-            class="btn btn-secondary"
-            style={{ "background-color": "#C0044C" }}
-          >
-            <a
-              href="/Kegiatan/bulanan/"
-              style={{ "text-decoration": "none", color: "white" }}
-            >
-              Info Lebih Lanjut
-            </a>
-          </button>
-        </div>
-        {/* End of Kegiatan Bulanan */}
       </div>
+      {/* End of Kegiatan Bulanan */}
     </>
   );
 }
