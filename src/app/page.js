@@ -4,7 +4,7 @@
 import Image from "next/image";
 import style from "./home.module.css";
 import { useEffect, useState } from "react";
-import HomeKegiatan from "@/components/homepage/home_kegiatan";
+// import HomeKegiatan from "@/components/homepage/home_kegiatan";
 
 export default function Home() {
   const [active, setActive] = useState({
@@ -194,7 +194,7 @@ export default function Home() {
         </div>
       </div>
 
-      <HomeKegiatan />
+      {/* <HomeKegiatan /> */}
 
       <div class={style.events_comp}>
         <h1 class={style.events_title}>Events</h1>
