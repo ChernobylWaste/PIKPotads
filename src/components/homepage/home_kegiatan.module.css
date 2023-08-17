@@ -66,17 +66,6 @@
   grid-auto-flow: column;
   gap: 3vw;
   align-items: center;
-  width: 100%;
-}
-
-.kategori div > h2 {
-  color: #fff;
-  font-family: Abril Fatface;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 150%; /* 60px */
-  letter-spacing: -0.76px;
 }
 
 .kategori > div {
@@ -89,8 +78,18 @@
   background: #d9d9d9;
 }
 
+.kategori div > h2 {
+  color: #fff;
+  font-family: Abril Fatface;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 60px */
+  letter-spacing: -0.76px;
+}
+
 @media (max-width: 1024px) {
-  .kegiatan {
+  .scroll_able {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -101,7 +100,12 @@
     align-items: center;
   }
 
-  .kategori > div {
-    width: auto;
+  .kategori div {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    width: 85vw;
+    background: rgba(0, 147, 221, 0.8);
+
+    padding: 2vw;
   }
 }

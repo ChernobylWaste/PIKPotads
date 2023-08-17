@@ -1,0 +1,83 @@
+.faq {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 3vw;
+
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  margin: 5vh;
+}
+
+.rate .star {
+  border-radius: 20px;
+  background: #d9d9d9;
+  padding: 2vh;
+}
+
+.rate .star::before {
+  content: url(/Star\ 3.svg) url(/Star\ 3.svg) url(/Star\ 3.svg)
+    url(/Star\ 3.svg) url(/Star\ 3.svg);
+}
+
+.faq_content {
+  display: grid;
+  grid-template-rows: 15% 1fr 1fr 1fr;
+  gap: 3vh;
+}
+
+.faq_content > h1 {
+  color: #c0044c;
+  text-align: center;
+  font-family: Rubik One;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.freq {
+  display: grid;
+  grid-template-columns: 90% 10%;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+  background: #d9d9d9;
+  /* padding: 1vw; */
+}
+
+.expand {
+  color: rgba(32, 74, 225, 0.85);
+  text-align: center;
+  font-family: Archivo Black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 22.5px */
+  letter-spacing: -0.285px;
+
+  margin: 3vh;
+}
+
+.freq h4 {
+  color: rgba(32, 74, 225, 0.85);
+  text-align: center;
+  font-family: Archivo Black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 22.5px */
+  letter-spacing: -0.285px;
+
+  margin: 3vh;
+}
+
+@media ((max-width: 1024px)) {
+  .faq {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+}

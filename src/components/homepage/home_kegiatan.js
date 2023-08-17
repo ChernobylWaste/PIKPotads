@@ -8,7 +8,7 @@ export default function HomeKegiatan() {
       <div class={`${style_res.kegiatan}`}>
         <h1>Kegiatan</h1>
 
-        <div className={style.scroll_able}>
+        <div className={style_res.scroll_able}>
           <div class={`${style_res.kategori} ${style_res.kategori}`}>
             <div class={style_res.musik}>
               <img src="/musik.svg" alt="musik" />

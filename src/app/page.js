@@ -1,18 +1,18 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
-import style from "./home.module.css";
-import { useEffect, useState } from "react";
+import style from "@/app/home.module.css";
 import HomeKegiatan from "@/components/homepage/home_kegiatan";
+import Faq_home from "@/components/homepage/home_faq";
+import { useState } from "react";
+import Tim_home from "@/components/homepage/home_tim";
 
 export default function Home() {
   const [active, setActive] = useState({
-    faq1: false,
-    faq2: false,
-    faq3: false,
+    content1: false,
+    content2: false,
+    event: false,
   });
-
   return (
     <>
       <div class={style.welcome}>
@@ -23,7 +23,13 @@ export default function Home() {
         <div class={style.general_title}>
           <h1>EDUKASI DOWN SYNDROME</h1>
           <div class={style.content}>
-            <p>
+            <p
+              className={`${active.content1 ? "" : "truncate"}`}
+              onClick={() => {
+                const temp = !active.content1;
+                setActive({ ...active, content1: temp });
+              }}
+            >
               Sindrom Down adalah suatu kondisi di mana seseorang memiliki
               kromosom ekstra. Kromosom adalah "paket" kecil gen dalam tubuh.
               Mereka menentukan bagaimana tubuh bayi terbentuk dan berfungsi
@@ -44,7 +50,13 @@ export default function Home() {
         <div class={style.general_title}>
           <h1>TENTANG POTADS</h1>
           <div class={style.content}>
-            <p>
+            <p
+              className={`${active.content2 ? "" : "truncate"}`}
+              onClick={() => {
+                const temp = !active.content2;
+                setActive({ ...active, content2: temp });
+              }}
+            >
               Pertama kali diinisiasi oleh 3 orangtua pada tahun 1997 melalui
               sebuah pertemuan rutin yang dilakukan pada saat mengantar sang
               buah hati melakukan terapi di salah satu Rumah Sakit di Jakarta.
@@ -115,137 +127,82 @@ export default function Home() {
         </div>
       </div>
 
-      <div class={style.faq}>
-        <div class={style.rate}>
-          <img src="/lady_rate.png" alt="lady_rate" />
-          <div class={style.star}>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-
-        <div class={style.faq_content}>
-          <h1>FAQ</h1>
-          <div class={style.freq}>
-            <h4>
-              Apa Saja Faktor Yang Meningkatkan Resiko Ibu Hamil Mengandung Bayi
-              Down Syndrome?
-            </h4>
-
-            <button
-              type="button"
-              onClick={() => {
-                // setActive1(!active1);
-                const temp = !active.faq1;
-                setActive({ ...active, faq1: temp });
-              }}
-            >
-              <img src="/Arrow_Vector.svg" alt="Expand" />
-            </button>
-
-            <p className={`${style.expand} ${active.faq1 ? "flex" : "hidden"}`}>
-              Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
-              pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
-              Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
-              seperti CVS atau amniosentesis.
-            </p>
-          </div>
-          <div class={style.freq}>
-            <h4>Apakah Kondisi Down Syndrome Bisa Terdeteksi?</h4>
-            <button
-              type="button"
-              onClick={() => {
-                // setActive2(!active2);
-                const temp = !active.faq2;
-                setActive({ ...active, faq2: temp });
-              }}
-            >
-              <img src="/Arrow_Vector.svg" alt="Expand" />
-            </button>
-
-            <p className={`${style.expand} ${active.faq2 ? "flex" : "hidden"}`}>
-              Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
-              pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
-              Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
-              seperti CVS atau amniosentesis.
-            </p>
-          </div>
-          <div class={style.freq}>
-            <h4>Apakah Down Syndrome Sebuah Penyakit?</h4>
-            <button
-              type="button"
-              onClick={() => {
-                // setActive3(!active3);
-                const temp = !active.faq3;
-                setActive({ ...active, faq3: temp });
-              }}
-            >
-              <img src="/Arrow_Vector.svg" alt="Expand" />
-            </button>
-            <p className={`${style.expand} ${active.faq3 ? "flex" : "hidden"}`}>
-              Tanda-tanda ibu hamil bayi Down syndrome dapat terdeteksi melalui
-              pemeriksaan USG pada bulan-bulan awal kehamilan. Bila diperlukan,
-              Dokter akan menyarankan untuk melakukan pemeriksaan lebih lanjut
-              seperti CVS atau amniosentesis.
-            </p>
-          </div>
-        </div>
-      </div>
+      <Faq_home />
 
       <HomeKegiatan />
 
       <div class={style.events_comp}>
         <h1 class={style.events_title}>Events</h1>
-        <div class={style.events}>
-          <div class={style.list}>
-            <img
-              src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
-            <h1>MUSIK</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class={style.list}>
-            <img
-              src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
-            <h1>MUSIK</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-          <div class={style.list}>
-            <img
-              src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-              alt=""
-            />
-            <h1>MUSIK</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+
+        <div className={style.events_scroll}>
+          <div class={style.events}>
+            <div class={style.list}>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+              <h1>MUSIK</h1>
+              <p
+                className={`${active.event ? "" : "truncate"}`}
+                onClick={() => {
+                  const temp = !active.event;
+                  setActive({ ...active, event: temp });
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+
+            <div class={style.list}>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+              <h1>MUSIK</h1>
+              <p
+                className={`${active.event ? "" : "truncate"}`}
+                onClick={() => {
+                  const temp = !active.event;
+                  setActive({ ...active, event: temp });
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class={style.list}>
+              <img
+                src="https://plus.unsplash.com/premium_photo-1663100143645-219cad61e1e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                alt=""
+              />
+              <h1>MUSIK</h1>
+              <p
+                className={`${active.event ? "" : "truncate"}`}
+                onClick={() => {
+                  const temp = !active.event;
+                  setActive({ ...active, event: temp });
+                }}
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
           </div>
         </div>
         <a href="EventsPotads/" className={style.hyperlink}>
@@ -253,42 +210,7 @@ export default function Home() {
         </a>
       </div>
 
-      <div class={style.tim_comp}>
-        <h1>TIM</h1>
-        <div class={style.tim_grid}>
-          <div class={style.tim_grid_total}>
-            <h1>Jumlah Team</h1>
-            <h2>POTADS JABAR</h2>
-
-            <div class={style.total_number}>
-              <div class={style.volunteer}>
-                <h1>XXX</h1>
-                <p>Volunteer</p>
-              </div>
-
-              <div class={style.pengurus}>
-                <h1>XXX</h1>
-                <p>Pengurus</p>
-              </div>
-            </div>
-
-            <a href="" className={style.hyperlink}>
-              Info Lebih Lanjut
-            </a>
-          </div>
-
-          <div class={style.tim_grid_image}>
-            <img
-              src="https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
-              alt="placeholder"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1520454974749-611b7248ffdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
-              alt="placeholder"
-            />
-          </div>
-        </div>
-      </div>
+      <Tim_home />
 
       <div class={style.contact}>
         <div class={style.info}>
