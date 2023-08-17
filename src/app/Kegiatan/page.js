@@ -1,20 +1,16 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
+
+import style from "@/app/Kegiatan/kegiatan.module.css"
 export default function Kegiatan() {
   return (
     <>
       {/* Banner */}
-      <img
-        src="/Kegiatan/headerkegiatan.png"
-        alt="Deskripsi Gambar"
-        class="img-fluid darken-image"
-        style={{ width: "100%" }}
-      />
-      <div class="katafotokiri">KEGIATAN</div>
+      <div class={style.katafotokiri}>KEGIATAN</div>
       {/* End of Banner */}
 
       {/* Start of Pendaftaran */}
-      <div class="container-fluid">
+      <div class="container-fluid my-4">
         <div
           class="card text-center"
           style={{ "background-color": "#24b8e5", color: "white" }}
@@ -345,6 +341,6 @@ export default function Kegiatan() {
         </div>
       </div>
       {/* End of Kegiatan Bulanan */}
-    </>
+      </>
   );
 }

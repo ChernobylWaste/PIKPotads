@@ -1,14 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import style from "@/app/Kegiatan/kegiatan.module.css";
 export default function krutin() {
   return (
     <>
-      <img
-        src="/Kegiatan/headerkegiatan.png"
-        alt="Deskripsi Gambar"
-        class="img-fluid darken-image"
-        style={{ width: "100%" }}
-      />
-      <div class="katafotokiri">KEGIATAN</div>
+      {/* Banner */}
+      <div class={style.katafotokiri}>KEGIATAN</div>
+      {/* End of Banner */}
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
@@ -16,7 +13,7 @@ export default function krutin() {
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-        <div class="col">
+          <div class="col">
             <div class="card">
               <img
                 src="/Kegiatan/krutin/cookingB1/Proses/ls (2).jpg"
@@ -83,7 +80,10 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "4.7vh" }}>
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "4.7vh" }}
+                >
                   Pelatihan : Keterampilan
                 </h5>
               </div>
@@ -112,7 +112,10 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3.8vh" }}>
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "3.8vh" }}
+                >
                   Pelatihan Seni : Djembe
                 </h5>
               </div>
@@ -170,7 +173,10 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3.8vh" }}>
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "3.8vh" }}
+                >
                   Play Class Usia 5 - 12 Tahun
                 </h5>
               </div>
