@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import style from "@/app/FAQ/FAQ.module.css";
 import { useState } from "react";

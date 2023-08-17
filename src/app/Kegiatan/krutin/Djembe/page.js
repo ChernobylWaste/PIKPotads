@@ -1,14 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
+import style from "@/app/Kegiatan/kegiatan.module.css";
 export default function djembe() {
   return (
     <>
-      <img
-        src="/Kegiatan/headerkegiatan.png"
-        alt="Deskripsi Gambar"
-        class="img-fluid darken-image"
-        style={{width: "100%"}}
-      />
-      <div class="katafotokiri">KEGIATAN</div>
+      {/* Banner */}
+      <div class={style.katafotokiri}>KEGIATAN</div>
+      {/* End of Banner */}
 
       <div class="container py-5">
         <h1 class="text-center" style={{color: "#C01358"}}>

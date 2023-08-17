@@ -1,7 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
+import style from "@/app/Kegiatan/kegiatan.module.css";
 export default function bulanan() {
   return (
     <>
+      {/* Banner */}
+      <div class={style.katafotokiri}>KEGIATAN</div>
+      {/* End of Banner */}
+
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
           KEGIATAN BULANAN
