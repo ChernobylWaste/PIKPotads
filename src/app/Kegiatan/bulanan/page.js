@@ -52,7 +52,7 @@ export default function bulanan() {
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue" }}>
-                  Pelatihan Jumputan Batch 2
+                  Workshop
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -61,7 +61,7 @@ export default function bulanan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/bulanan/JumputanB2"
+                    href="/Kegiatan/bulanan/Workshop/"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut

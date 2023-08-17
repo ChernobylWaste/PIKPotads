@@ -16,14 +16,14 @@ export default function ipen() {
           <div class="card">
             <div class="col">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (8).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/BBT/BBT (8).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue" }}>
-                  Road To HDSD 2023 (Bersih - Bersih Telinga)
+                  Road to HDSD 2023 : Bersih - Bersih Telinga
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -32,7 +32,36 @@ export default function ipen() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/ipen/RTHDSD23"
+                    href="/Kegiatan/ipen/RTHDSD23/BBT"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/RTHDSD23/GM/gigimulut (1).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue" , margin:"2vh"}}>
+                  Road to HDSD 2023 : Pemeriksaan Gigi & Mulut
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/RTHDSD23/G&M"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Info Lebih Lanjut
@@ -149,6 +178,122 @@ export default function ipen() {
                 >
                   <a
                     href="/Kegiatan/ipen/HDSD/2023"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                  POTADS Pusat : Khitan Massal 2021
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/POTADS/Khitan/2021"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                  POTADS Pusat : Baksos Perdosri 2022
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/POTADS/Baksos/Perdosri22"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                Gathering PIK Potads Jabar bersama PT. Lautan Luas : Lembang Park & Zoo
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/POTADS/Zoo/LembangPark"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                Kegiatan dengan pihak 3 / Sponsor
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/KegiatanSponsor/"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Info Lebih Lanjut

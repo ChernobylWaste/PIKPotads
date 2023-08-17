@@ -106,6 +106,38 @@ export default function krutin() {
           <div class="col">
             <div class="card">
               <img
+                src="/Kegiatan/krutin/Kendang/Kendang (1).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "3.8vh" }}
+                >
+                  Pelatihan seni : Kendang
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/krutin/Kendang"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
                 src="/Kegiatan/krutin/djembe/ls (4).png"
                 class="card-img-top"
                 alt="..."
@@ -173,10 +205,65 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5
-                  class="card-title"
-                  style={{ color: "blue", margin: "3.8vh" }}
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Keterampilan : Barista
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
                 >
+                  <a
+                    href="/Kegiatan/krutin/Barista"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/krutin/Renang/Renang (9).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                  Pelatihan : Renang
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/krutin/Renang"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/krutin/playclass/ls (5).png"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Play Class Usia 5 - 12 Tahun
                 </h5>
               </div>

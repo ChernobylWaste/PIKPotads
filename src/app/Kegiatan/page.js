@@ -93,7 +93,7 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (8).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/BBT/BBT (8).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -320,7 +320,7 @@ export default function Kegiatan() {
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Jumputan Batch 2
+                  Workshop
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -329,7 +329,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/bulanan/JumputanB2"
+                    href="/Kegiatan/bulanan/Workshop"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut

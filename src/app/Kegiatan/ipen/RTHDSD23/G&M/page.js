@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "@/app/Kegiatan/kegiatan.module.css";
-export default function ipen() {
+export default function gigimulut() {
   return (
     <>
       {/* Banner */}
@@ -16,7 +16,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (1).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (1).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -27,7 +27,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (2).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (2).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -38,7 +38,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (3).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (3).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -49,7 +49,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (4).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (4).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -60,7 +60,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (5).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (5).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -71,7 +71,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (6).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (6).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -82,7 +82,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (7).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (7).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -93,7 +93,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (8).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (8).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -104,7 +104,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (9).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (9).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -115,7 +115,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (10).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (10).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -126,7 +126,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (11).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (11).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -137,7 +137,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (12).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (12).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -148,7 +148,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (13).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (13).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -159,7 +159,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (14).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (14).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -170,40 +170,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (15).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (16).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (17).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/Ipen/RTHDSD23/RTHDSD (18).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (15).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
