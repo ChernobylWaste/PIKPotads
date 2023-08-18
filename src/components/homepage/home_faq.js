@@ -1,4 +1,6 @@
 "use client";
+/* eslint-disable @next/next/no-img-element */
+
 import style from "@/components/homepage/home_faq.module.css";
 import { useState } from "react";
 
