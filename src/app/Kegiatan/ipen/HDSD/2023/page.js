@@ -9,7 +9,7 @@ export default function HDSD2023() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{color: "#C01358"}}>
-          Hari Down Syndrome Dunia 2023
+          HARI DOWN SYNDROME DUNIA 2023
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">

@@ -9,7 +9,7 @@ export default function gathering() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Gathering POTADS Februari 2020 & 2022
+          GATHERING POTADS FEBRUARI 2020 & 2022
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">

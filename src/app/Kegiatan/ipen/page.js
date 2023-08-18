@@ -13,8 +13,8 @@ export default function ipen() {
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-          <div class="card">
-            <div class="col">
+          <div class="col">
+            <div class="card">
               <img
                 src="/Kegiatan/Ipen/RTHDSD23/BBT/BBT (8).jpg"
                 class="card-img-top"
@@ -22,7 +22,7 @@ export default function ipen() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2.5vh" }}>
                   Road to HDSD 2023 : Bersih - Bersih Telinga
                 </h5>
               </div>
@@ -51,7 +51,7 @@ export default function ipen() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue" , margin:"2vh"}}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Road to HDSD 2023 : Pemeriksaan Gigi & Mulut
                 </h5>
               </div>
@@ -80,7 +80,7 @@ export default function ipen() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "4.3vh" }}>
                   DSAM 2022
                 </h5>
               </div>
@@ -109,7 +109,7 @@ export default function ipen() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "4.8vh" }}>
                   DSAM 2023
                 </h5>
               </div>
@@ -190,7 +190,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                src="/Kegiatan/Ipen/POTADS/Khitan/Khitan (1).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
@@ -219,7 +219,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                src="/Kegiatan/Ipen/POTADS/Baksos/Baksos22 (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
@@ -248,14 +248,15 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                src="/Kegiatan/Ipen/POTADS/Zoo/Zoo (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
-                Gathering PIK Potads Jabar bersama PT. Lautan Luas : Lembang Park & Zoo
+                <h5 class="card-title" style={{ color: "blue", margin: "1.3vh" }}>
+                  Gathering PIK Potads Jabar bersama PT. Lautan Luas : Lembang
+                  Park & Zoo
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -277,14 +278,14 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/HDSD2023/HDSD23 (5).jpg"
+                src="/Kegiatan/Ipen/KegiatanSponsor/Sponsor (1).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
-                Kegiatan dengan pihak 3 / Sponsor
+                  Kegiatan dengan pihak 3 / Sponsor
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">

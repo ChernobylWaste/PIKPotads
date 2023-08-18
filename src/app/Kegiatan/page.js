@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
-import style from "@/app/Kegiatan/kegiatan.module.css"
+import style from "@/app/Kegiatan/kegiatan.module.css";
 export default function Kegiatan() {
   return (
     <>
@@ -61,7 +61,7 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2023/ls pj (1) 1.png"
+                src="/Kegiatan/Ipen/POTADS/Zoo/Zoo (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -71,7 +71,7 @@ export default function Kegiatan() {
                   class="card-title"
                   style={{ color: "blue", margin: "3.5vh" }}
                 >
-                  DSAM 2023
+                  Bersama POTADS Pusat
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -80,7 +80,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/ipen/DSAM/2023"
+                    href="/Kegiatan/ipen/POTADS"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -93,14 +93,14 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/BBT/BBT (8).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (20).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Road To HDSD 2023 (Bersih - Bersih Telinga)
+                <h5 class="card-title" style={{ color: "blue", margin: "3.5vh" }}>
+                  DSAM
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -109,7 +109,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/ipen/RTHDSD23"
+                    href="/Kegiatan/ipen/DSAM"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -167,7 +167,7 @@ export default function Kegiatan() {
       {/* Start of Kegiatan Rutin */}
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Kegiatan Rutin
+          KEGIATAN RUTIN
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
@@ -190,7 +190,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/krutin/MemasakBatch1"
+                    href="/Kegiatan/krutin/Memasak/"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -239,7 +239,7 @@ export default function Kegiatan() {
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Pelatihan Seni : Djembe
+                  Pelatihan Seni
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -248,7 +248,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/krutin/Djembe"
+                    href="/Kegiatan/krutin/PSeni"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -277,7 +277,7 @@ export default function Kegiatan() {
       {/* Start of Kegiatan Bulanan */}
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Kegiatan Bulanan
+          KEGIATAN BULANAN
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
@@ -291,7 +291,7 @@ export default function Kegiatan() {
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Jumputan Batch 1
+                  Pelatihan : Jumputan
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -300,7 +300,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/bulanan/JumputanB1"
+                    href="/Kegiatan/bulanan/Jumputan"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -313,14 +313,14 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (2) 1.jpg"
+                src="/Kegiatan/kbulanan/Workshop/Fisiotherapy/Fisiotherapy (4).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
                 <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Workshop
+                  Workshops
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -339,8 +339,22 @@ export default function Kegiatan() {
             </div>
           </div>
         </div>
+
+        <div class="mb-5 d-flex justify-content-around">
+          <button
+            class="btn btn-secondary"
+            style={{ "background-color": "#C0044C" }}
+          >
+            <a
+              href="/Kegiatan/bulanan"
+              style={{ "text-decoration": "none", color: "white" }}
+            >
+              Info Lebih Lanjut
+            </a>
+          </button>
+        </div>
       </div>
       {/* End of Kegiatan Bulanan */}
-      </>
+    </>
   );
 }

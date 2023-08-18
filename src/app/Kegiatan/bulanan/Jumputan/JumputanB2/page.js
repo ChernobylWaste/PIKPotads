@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "@/app/Kegiatan/kegiatan.module.css";
-export default function memasakb1() {
+export default function JumputanB2() {
   return (
     <>
       {/* Banner */}
@@ -9,212 +9,8 @@ export default function memasakb1() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          PELATIHAN : MEMASAK BATCH 1
+          PELATIHAN JUMPUTAN BATCH 2
         </h1>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
-          Proses
-        </h1>
-
-        <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (1).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (2).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (3).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (4).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (5).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (6).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt pj (1).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt pj (2).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt pj (3).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (1).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (10).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (11).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (12).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (14).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (13).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (15).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (16).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB1/Proses/pt hasil (17).jpg"
-                class="card-img-top"
-                style={{ padding: "20px", "border-radius": "20" }}
-                alt="..."
-              />
-            </div>
-          </div>
-        </div>
-
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Produk
         </h1>
@@ -223,7 +19,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt.png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (1).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -234,7 +30,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt (1).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (2).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -245,7 +41,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt (2).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (3).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -256,7 +52,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt (3).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (4).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -267,7 +63,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt (4).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (5).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -278,24 +74,90 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Produk/pt (5).png"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (6).jpg"
                 class="card-img-top"
-                alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (7).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (8).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (9).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (10).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (11).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Produk/Produk (12).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
               />
             </div>
           </div>
         </div>
 
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Kelulusan
+          Proses
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/ls (1).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (1).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -306,7 +168,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/ls (2).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (2).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -317,7 +179,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (1).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (3).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -328,7 +190,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (10).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (4).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -339,7 +201,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (11).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (6).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -350,7 +212,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (15).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/ls (7).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -361,7 +223,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (2).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (17).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -372,7 +234,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (3).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (10).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -383,7 +245,7 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (6).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (11).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -394,9 +256,9 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (7).jpg"
-                style={{ padding: "20px", "border-radius": "20" }}
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (13).jpg"
                 class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
               />
             </div>
@@ -405,9 +267,9 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (8).jpg"
-                style={{ padding: "20px", "border-radius": "20" }}
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (18).jpg"
                 class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
               />
             </div>
@@ -416,7 +278,227 @@ export default function memasakb1() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Wisuda/pt (9).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (19).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (20).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (21).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (23).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (24).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (26).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (27).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (32).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (33).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (34).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (4).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (5).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (9).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (28).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (29).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (30).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (35).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (1).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (2).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (31).jpg"
+                class="card-img-top"
+                style={{ padding: "20px", "border-radius": "20" }}
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/kbulanan/Jumputan Batch 2/Proses/pt (8).jpg"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."

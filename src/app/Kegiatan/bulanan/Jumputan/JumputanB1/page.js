@@ -9,7 +9,7 @@ export default function JumputanB1() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          PELATIHAN JUMPUTAN BATCH 1
+          PELATIHAN : JUMPUTAN BATCH 1
         </h1>
         <h1 class="text-center" style={{ color: "#C01358" }}>
           Produk

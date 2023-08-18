@@ -9,7 +9,7 @@ export default function gigimulut() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Road To Hari Down Syndrome 2023 (Bersih - Bersih Telinga)
+          ROAD TO HARI DOWN SYNDROME 2023 (PEMERIKSAAN GIGI & MULUT)
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">

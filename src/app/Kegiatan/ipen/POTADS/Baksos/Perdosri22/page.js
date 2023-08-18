@@ -9,7 +9,7 @@ export default function baksos() {
 
       <div class="container py-5">
         <h1 class="text-center" style={{ color: "#C01358" }}>
-          Bakti Sosial Perdosri 2022
+          BAKTI SOSIAL PERDOSRI 2022
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
