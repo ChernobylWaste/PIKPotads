@@ -61,7 +61,7 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/POTADS/Zoo/Zoo (2).jpg"
+                src="/Kegiatan/Ipen/POTADS/Zoo/zoo (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
