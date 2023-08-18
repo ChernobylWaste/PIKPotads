@@ -8,10 +8,10 @@ export default function JumputanB1() {
       {/* End of Banner */}
 
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           PELATIHAN : JUMPUTAN BATCH 1
         </h1>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           Produk
         </h1>
 
@@ -208,7 +208,7 @@ export default function JumputanB1() {
           </div>
         </div>
 
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           Proses
         </h1>
 
@@ -412,7 +412,7 @@ export default function JumputanB1() {
           </div>
         </div>
 
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           Kelulusan
         </h1>
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">

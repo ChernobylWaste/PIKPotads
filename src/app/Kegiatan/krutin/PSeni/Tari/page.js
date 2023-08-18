@@ -8,7 +8,7 @@ export default function tarikreasi() {
       {/* End of Banner */}
 
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           PELATIHAN SENI : TARI KREASI NASIONAL
         </h1>
 
@@ -82,7 +82,7 @@ export default function tarikreasi() {
       </div>
 
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           VIDEO TARI KREASI NASIONAL
         </h1>
 

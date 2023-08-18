@@ -9,7 +9,7 @@ export default function playclass() {
       {/* End of Banner */}
 
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           PELATIHAN : RENANG
         </h1>
 

@@ -8,7 +8,7 @@ export default function pseni() {
       {/* End of Banner */}
 
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           PELATIHAN SENI
         </h1>
 
@@ -23,7 +23,7 @@ export default function pseni() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                 Pelatihan Seni : Djembe
                 </h5>
               </div>
@@ -52,7 +52,7 @@ export default function pseni() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan Seni : Kendang
                 </h5>
               </div>
@@ -81,7 +81,7 @@ export default function pseni() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "1.3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "1.9vh" }}>
                 Pelatihan Seni : Tari Kreasi Nasional
                 </h5>
               </div>

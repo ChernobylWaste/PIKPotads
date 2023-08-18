@@ -53,7 +53,7 @@ export default function Kegiatan() {
 
       {/* Start of Events */}
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center text-4xl" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           EVENTS
         </h1>
 
@@ -166,7 +166,7 @@ export default function Kegiatan() {
 
       {/* Start of Kegiatan Rutin */}
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           KEGIATAN RUTIN
         </h1>
 
@@ -276,7 +276,7 @@ export default function Kegiatan() {
 
       {/* Start of Kegiatan Bulanan */}
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
           KEGIATAN BULANAN
         </h1>
 

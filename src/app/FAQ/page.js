@@ -60,7 +60,7 @@ export default function faq() {
           <div class="col-md-3 text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample"
                 type="button"
@@ -92,7 +92,7 @@ export default function faq() {
           <div class="col-md-3 text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample1"
                 type="button"
@@ -124,7 +124,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample2"
                 type="button"
@@ -154,7 +154,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample3"
                 type="button"
@@ -191,7 +191,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample4"
                 type="button"
@@ -223,7 +223,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample5"
                 type="button"
@@ -255,7 +255,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample6"
                 type="button"
@@ -286,7 +286,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample7"
                 type="button"
@@ -322,7 +322,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample8"
                 type="button"
@@ -370,7 +370,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample10"
                 type="button"
@@ -419,7 +419,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample11"
                 type="button"
@@ -467,7 +467,7 @@ export default function faq() {
           <div class="col-md-3  text-center">
             <p class="d-inline-flex gap-1">
               <a
-                class={`btn btn-primary ${style.buttoncolourFAQ}`}
+                class={`btn btn-primary m-10 ${style.buttoncolourFAQ}`}
                 data-bs-toggle="collapse"
                 href="#collapseExample12"
                 type="button"
