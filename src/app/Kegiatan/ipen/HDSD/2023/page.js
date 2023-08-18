@@ -7,7 +7,7 @@ export default function HDSD2023() {
       <div class={style.katafotokiri}>KEGIATAN</div>
       {/* End of Banner */}
 
-      <div class="container py-5">
+      <div class={`container py-5 ${style.font}`}>
         <h1 class="text-center" style={{color: "#C01358"}}>
           HARI DOWN SYNDROME DUNIA 2023
         </h1>

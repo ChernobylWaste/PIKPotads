@@ -1,11 +1,16 @@
+import style from "@/app/TentangKami/tentang.module.css";
 export default function TentangKami() {
   return (
     <>
+      {/* Banner */}
+      <div class={style.katafotokiri}>TENTANG KAMI</div>
+      {/* End of Banner */}
+
       <div>
-        <h1 class="judulkonten">LATAR BELAKANG</h1>
+        <h1 class={style.judulkonten}>LATAR BELAKANG</h1>
       </div>
-      <div>
-        <p class="penjelasan">
+      <div class={style.penjelasan}>
+        <p>
           Memiliki anak adalah sebuah karunia terbesar bagi seluruh orangtua.
           Namun, memiliki anak yang dilahirkan dengan Down Syndrome adalah hal
           yang tidak pernah diharapkan oleh siapapun. POTADS bertujuan untuk
@@ -25,10 +30,10 @@ export default function TentangKami() {
       </div>
 
       <div>
-        <h1 class="judulkonten">APA ITU POTADS?</h1>
+        <h1 class={style.judulkonten}>APA ITU POTADS?</h1>
       </div>
-      <div>
-        <p class="penjelasan">
+      <div class={style.penjelasan}>
+        <p>
           Organisasi yang pertama kali diinisiasi oleh 3 orangtua pada tahun
           1997 melalui sebuah pertemuan rutin yang dilakukan pada saat mengantar
           sang buah hati melakukan terapi di salah satu Rumah Sakit di Jakarta.
@@ -51,11 +56,9 @@ export default function TentangKami() {
         </p>
       </div>
 
-      <div>
-        <h2 class="subcontent">TUJUAN</h2>
-      </div>
-      <div>
-        <p class="penjelasan">
+      <div class={style.penjelasan}>
+        <h2>TUJUAN</h2>
+        <p>
           Tujuan utama POTADS adalah memberdayakan orangtua anak dengan Down
           Syndrome agar selalu bersemangat untuk membantu tumbuh kembang anak
           spesialnya secara maksimal, sehingga mereka mampu menjadi pribadi yang
@@ -65,20 +68,16 @@ export default function TentangKami() {
         </p>
       </div>
 
-      <div>
-        <h2 class="subcontent">VISI</h2>
-      </div>
-      <div>
-        <p class="penjelasan">
+      <div class={style.penjelasan}>
+        <h2>VISI</h2>
+        <p>
           Visi yayasan POTADS adalah menjadi pusat informasi dan konsultasi
           terlengkap tentang Down Syndrome di Indonesia
         </p>
       </div>
 
-      <div>
-        <h2 class="subcontent">MISI</h2>
-      </div>
-      <div class="penjelasan">
+      <div class={style.penjelasan}>
+        <h2>MISI</h2>
         <li>
           Memiliki pusat informasi yang bisa diakses 24 jam baik melalui surat,
           telepon, internet atau media komunikasi lainnya.
@@ -109,11 +108,9 @@ export default function TentangKami() {
         </li>
       </div>
 
-      <div>
-        <h2 class="subcontent">MOTTO</h2>
-      </div>
-      <div>
-        <p class="penjelasan">
+      <div class={style.penjelasan}>
+        <h2>MOTTO</h2>
+        <p>
           Motto Yayasan POTADS adalah AKU ADA AKU BISA, yang merupakan kalimat
           pembangkit semangat orang tua dan anak sehingga akan selalu berusaha
           mencapai yang terbaik; yang berarti bahwa manusia dengan Down Syndrome

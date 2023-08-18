@@ -10,7 +10,7 @@ export default function Kegiatan() {
       {/* End of Banner */}
 
       {/* Start of Pendaftaran */}
-      <div class="container-fluid my-4">
+      <div class={ `container-fluid my-4 ${style.font}`}>
         <div
           class="card text-center"
           style={{ "background-color": "#24b8e5", color: "white" }}
@@ -52,7 +52,7 @@ export default function Kegiatan() {
       {/* End of Pendaftaran */}
 
       {/* Start of Events */}
-      <div class="container py-5">
+      <div class={`container py-5 ${style.font}`}>
         <h1 class="text-center" style={{ color: "#C01358" }}>
           EVENTS
         </h1>
@@ -165,7 +165,7 @@ export default function Kegiatan() {
       {/* End of Events */}
 
       {/* Start of Kegiatan Rutin */}
-      <div class="container py-5">
+      <div class={`container py-5 ${style.font}`}>
         <h1 class="text-center" style={{ color: "#C01358" }}>
           KEGIATAN RUTIN
         </h1>
@@ -275,7 +275,7 @@ export default function Kegiatan() {
       {/* End of krutin*/}
 
       {/* Start of Kegiatan Bulanan */}
-      <div class="container py-5">
+      <div class={`container py-5 ${style.font}`}>
         <h1 class="text-center" style={{ color: "#C01358" }}>
           KEGIATAN BULANAN
         </h1>

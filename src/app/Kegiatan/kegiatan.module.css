@@ -1,13 +1,7 @@
-
-@font-face {
-  font-family: "Khula";
-  src: url("/Fonts/Khula-Regular.ttf") format("truetype");
-}
-
 .katafotokiri {
   color: #F5F5F5;
   text-align: left;
-  font-family: Poppins;
+  font-family: Montserrat;
   font-size: 44px;
   font-style: normal;
   font-weight: 700;
@@ -23,6 +17,11 @@
   background-blend-mode: multiply;
 }
 
+.font{
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
 @media (max-width: 1024px){
   .katafotokiri {
     font-size: 30px;
@@ -30,5 +29,10 @@
     background-size: 100% 100%;
     height: 10vh;
     padding-top: 8vh;
+  }
+
+  .font{
+    font-family: Montserrat;
+    font-weight: 700;
   }
 }
