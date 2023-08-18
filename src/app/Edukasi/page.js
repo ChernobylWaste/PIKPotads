@@ -1,15 +1,29 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
+import style from "@/app/Edukasi/edukasi.module.css";
+
 export default function edukasi() {
   return (
     <>
-      <div class="judul" style={{ "text-align": "center" }}>
+      {/* Banner */}
+      <div class={style.katafotokiri}>EDUKASI DOWN SYNDROME</div>
+      {/* End of Banner */}
+      <div
+        class="judul"
+        style={{
+          "text-align": "center",
+          margin: "4%",
+          fontFamily: "Montserrat",
+          fontWeight: "700",
+        }}
+      >
         PENGERTIAN DOWN SYNDROME
       </div>
       <div class="container-fluid text-center">
         <div class="row align-items-center">
           <div class="col-md-8">
-            <p class="text-start penjelasan">
+            <p
+              class={`text-start ${style.penjelasan}`}
+              style={{ fontFamily: "Montserrat", fontWeight: "500" }}
+            >
               Sindrom Down adalah suatu kondisi di mana seseorang memiliki
               kromosom ekstra. Kromosom adalah "paket" kecil gen dalam tubuh.
               Mereka menentukan bagaimana tubuh bayi terbentuk dan berfungsi
@@ -27,76 +41,77 @@ export default function edukasi() {
             </p>
           </div>
           <div class="col-md-3 img-container">
-            <img
-              src="../Assets/efoto1.png"
-              class="rounded mx-auto d-block"
-              alt="foto"
-            />
+            <img src="/efoto1.png" class="rounded mx-auto d-block" alt="foto" />
           </div>
         </div>
       </div>
 
-      <div class="judul" style={{ "text-align": "center" }}>
+      <div
+        class="judul"
+        style={{
+          "text-align": "center",
+          fontWeight: "700",
+          margin: "4%",
+          fontFamily: "Montserrat",
+        }}
+      >
         Ciri-ciri Fisik Umum
       </div>
       <div class="container-fluid text-center">
         <div class="row align-items-center">
           <div class="col-md-6 img-container">
-            <img
-              src="../Assets/ciri.png"
-              class="rounded mx-auto d-block"
-              alt="foto"
-            />
+            <img src="/ciri.png" class="rounded mx-auto d-block" alt="foto" />
           </div>
           <div class="col-md-6">
-            <ul
-              style={{
-                "text-align": "left",
-                color: "#204ae1",
-                "font-weight": "600",
-              }}
-            >
-              <li>Wajah rata, terutama pangkal hidung</li>
-              <li>Mata berbentuk almond yang miring ke atas</li>
-              <li>Leher pendek</li>
-              <li>Telinga kecil</li>
-              <li>Lidah yang cenderung keluar dari mulut</li>
-              <li>
+            <ul class={style.highlightlist}>
+              <li class={style.list_style}>
+                Wajah rata, terutama pangkal hidung
+              </li>
+              <li class={style.list_style}>
+                Mata berbentuk almond yang miring ke atas
+              </li>
+              <li class={style.list_style}>Leher pendek</li>
+              <li class={style.list_style}>Telinga kecil</li>
+              <li class={style.list_style}>
+                Lidah yang cenderung keluar dari mulut
+              </li>
+              <li class={style.list_style}>
                 Bintik-bintik putih kecil pada iris (bagian berwarna) mata
               </li>
-              <li>Tangan dan kaki kecil</li>
-              <li>
+              <li class={style.list_style}>Tangan dan kaki kecil</li>
+              <li class={style.list_style}>
                 Satu garis melintang di telapak tangan (lipatan telapak tangan)
               </li>
-              <li>
+              <li class={style.list_style}>
                 Jari kelingking kecil yang terkadang melengkung ke arah ibu jari
               </li>
-              <li>Tonus otot yang buruk atau persendian yang longgar</li>
-              <li>Lebih pendek tingginya sebagai anak-anak dan orang dewasa</li>
+              <li class={style.list_style}>
+                Tonus otot yang buruk atau persendian yang longgar
+              </li>
+              <li class={style.list_style}>
+                Lebih pendek tingginya sebagai anak-anak dan orang dewasa
+              </li>
             </ul>
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
 
-      <div class="general_content">
-        <div class="edukasi">
-          <div class="content">
+      <div class={style.general_content}>
+        <div class={style.edukasi}>
+          <div class={style.content}>
             <p
               style={{
                 "font-size": "2vw",
                 "font-weight": "800",
                 color: "white",
+                margin: "3%",
               }}
             >
               Berapa Banyak Bayi yang Lahir dengan Keadaan Down Syndrome?
             </p>
-            <p
-              style={{
-                "font-size": "1vw",
-                "font-weight": "500",
-                color: "#204ae1",
-              }}
-            >
+            <p class={style.prg1} style={{ fontWeight: "600" }}>
               Sindrom Down adalah suatu kondisi di mana seseorang memiliki
               kromosom ekstra. Kromosom adalah "paket" kecil gen dalam tubuh.
               Mereka menentukan bagaimana tubuh bayi terbentuk dan berfungsi
@@ -119,13 +134,16 @@ export default function edukasi() {
         </div>
       </div>
 
-      <div class="judul" style={{ "text-align": "center" }}>
+      <div class={style.judul} style={{ margin: "3%" }}>
         Jenis-Jenis Down Syndrome
       </div>
       <div class="container-fluid">
         <div class="row align-items-center">
           <div class="col-md-8">
-            <p class="text-start penjelasan" style={{ "font-weight": "400" }}>
+            <p
+              class={`text-start ${style.penjelasan}`}
+              style={{ "font-weight": "400" }}
+            >
               Ada tiga jenis sindrom Down. Orang sering tidak dapat membedakan
               antara setiap jenis tanpa melihat kromosom karena ciri fisik dan
               perilakunya serupa.
@@ -153,7 +171,7 @@ export default function edukasi() {
           </div>
           <div class="col-md-3 img-container">
             <img
-              src="../Assets/DS Edukasi 2.jpg"
+              src="/DS Edukasi 2.jpg"
               class="rounded mx-auto d-block"
               alt="foto"
             />
