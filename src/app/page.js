@@ -221,7 +221,7 @@ export default function Home() {
               example@gmail.com
             </a>
           </div>
-          <div class="phone">
+          <div class={style.phone}>
             <a href="tel:+62">
               <img src="/phone.svg" alt="phone" />
               08123456789

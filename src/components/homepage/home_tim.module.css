@@ -72,3 +72,19 @@
   max-height: 100%;
   border-radius: 10px;
 }
+
+@media (max-width: 1024px) {
+  .tim_grid_scroll {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .tim_grid {
+    display: flex;
+    align-items: center;
+  }
+
+  .tim_grid > div {
+    width: 100%;
+  }
+}

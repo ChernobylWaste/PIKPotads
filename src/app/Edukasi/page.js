@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import style from "@/app/Edukasi/edukasi.module.css";
 
 export default function edukasi() {
