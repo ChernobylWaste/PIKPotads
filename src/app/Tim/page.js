@@ -5,23 +5,14 @@ export default function tim() {
   return (
     <>
       <div class={style.welcome}>
-        <h1
-          style={{
-            color: "white",
-            fontWeight: "500",
-            textAlign: "center", // Center align the text
-            padding: "10px", // Add some padding
-          }}
-        >
-          Team PIK POTADS Jawa Barat
-        </h1>
+        <h1 class={style.welcomeh1}>Team PIK POTADS Jawa Barat</h1>
       </div>
 
       <p
         class="text-center fs-1 fw-bolder"
         style={{ color: "rgb(75, 75, 75)", margin: "5%" }}
       >
-        Our Amazing Team!
+        Team POTADS Jabar!
       </p>
 
       <div class={`container ${style.backgroundColor}`}>
@@ -74,15 +65,13 @@ export default function tim() {
       </div>
 
       <div style={{ textAlign: "center", margin: "20px" }}>
-        <button type="button" class="btn btn-primary">
-          <a
-            href="https://docs.google.com/forms/d/1AHAxrIM-oR2cMBkNttrPs4ESx94iCoikQqga5oaiIwE/viewform?edit_requested=true"
-            style={{ textDecoration: "none", color: "aliceblue" }}
-            target="_blank"
-          >
-            Daftar untuk menjadi volunteer
-          </a>
-        </button>
+        <a
+          href="https://docs.google.com/forms/d/1AHAxrIM-oR2cMBkNttrPs4ESx94iCoikQqga5oaiIwE/viewform?edit_requested=true"
+          class="btn btn-primary"
+          target="_blank"
+        >
+          Daftar untuk menjadi volunteer
+        </a>
       </div>
     </>
   );
