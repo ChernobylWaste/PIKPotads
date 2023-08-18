@@ -53,7 +53,7 @@ export default function Kegiatan() {
 
       {/* Start of Events */}
       <div class={`container py-5 ${style.font}`}>
-        <h1 class="text-center text-xl" style={{ color: "#C01358" }}>
+        <h1 class="text-center text-4xl" style={{ color: "#C01358" }}>
           EVENTS
         </h1>
 
