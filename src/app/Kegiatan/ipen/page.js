@@ -45,7 +45,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/RTHDSD23/GM/gigimulut (1).jpg"
+                src="/Kegiatan/Ipen/RTHDSD23/GM/GigiMulut (1).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
@@ -109,7 +109,7 @@ export default function ipen() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "4.8vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
                   DSAM 2023
                 </h5>
               </div>
@@ -248,7 +248,7 @@ export default function ipen() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/POTADS/Zoo/Zoo (2).jpg"
+                src="/Kegiatan/Ipen/POTADS/Zoo/zoo (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}

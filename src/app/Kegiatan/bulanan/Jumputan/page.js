@@ -16,7 +16,7 @@ export default function jumputan() {
         <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/kbulanan/Jumputan Batch 1/Proses/Prosesb1 (2).jpg"
+                src="/Kegiatan/kbulanan/Jumputan Batch 1/Proses/prosesb1 (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}

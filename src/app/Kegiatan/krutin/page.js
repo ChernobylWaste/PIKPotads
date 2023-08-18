@@ -22,7 +22,7 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan : Kelas Memasak Batch 1
                 </h5>
               </div>
@@ -51,7 +51,7 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan : Kelas Memasak Batch 2
                 </h5>
               </div>
@@ -82,7 +82,7 @@ export default function krutin() {
               <div class="card-body">
                 <h5
                   class="card-title"
-                  style={{ color: "blue", margin: "4.7vh" }}
+                  style={{ color: "blue", margin: "2vh" }}
                 >
                   Pelatihan : Keterampilan
                 </h5>

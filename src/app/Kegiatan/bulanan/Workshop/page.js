@@ -46,7 +46,7 @@ export default function workshop() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/kbulanan/Workshop/Kancing/Kancing (8).jpg"
+                src="/Kegiatan/kbulanan/Workshop/Kancing/kancing (8).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}

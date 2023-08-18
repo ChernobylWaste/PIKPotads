@@ -16,7 +16,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (1).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (1).JPG"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -27,7 +27,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (2).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (2).JPG"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -38,7 +38,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (3).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (3).JPG"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -49,7 +49,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (4).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (4).JPG"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -60,7 +60,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (5).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (5).JPG"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -71,7 +71,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (6).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (6).JPG"
                 class="card-img-top"
                 alt="..."
               />
@@ -81,7 +81,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (7).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (7).JPG"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."
@@ -92,7 +92,7 @@ export default function DSAM22() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/DSAM2022/1 (8).jpg"
+                src="/Kegiatan/Ipen/DSAM2022/1 (8).JPG"
                 class="card-img-top"
                 style={{ padding: "20px", "border-radius": "20" }}
                 alt="..."

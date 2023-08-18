@@ -68,7 +68,7 @@ export default function Kegiatan() {
               />
               <div class="card-body">
                 <h5
-                  class="card-title"
+                  class="card-title text-xl"
                   style={{ color: "blue", margin: "3.5vh" }}
                 >
                   Bersama POTADS Pusat
@@ -99,7 +99,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "3.5vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "3.5vh" }}>
                   DSAM
                 </h5>
               </div>
@@ -128,7 +128,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "3.5vh" }}>
                   Hari Down Syndrom Dunia 2023
                 </h5>
               </div>
@@ -180,7 +180,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan : Kelas Memasak
                 </h5>
               </div>
@@ -209,7 +209,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
                   Play Class Usia 5 - 12 Tahun
                 </h5>
               </div>
@@ -238,7 +238,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan Seni
                 </h5>
               </div>
@@ -290,7 +290,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan : Jumputan
                 </h5>
               </div>
@@ -319,7 +319,7 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
                   Workshops
                 </h5>
               </div>
