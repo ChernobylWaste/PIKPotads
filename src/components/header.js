@@ -35,9 +35,9 @@ export default function Navbar() {
           <Link href="/">Beranda</Link>
           <Link href="/Edukasi">Edukasi</Link>
           <Link href="/TentangKami">Tentang</Link>
-          <Link href="/FAQ">FAQ</Link>
           <Link href="/Kegiatan">Kegiatan</Link>
           <Link href="/Tim">Tim</Link>
+          <Link href="/FAQ">FAQ</Link>
         </div>
       </div>
     </>
