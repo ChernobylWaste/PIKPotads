@@ -34,13 +34,13 @@ export default function HomeKegiatan() {
               <h2>Event</h2>
             </div>
 
-            {/* <div
+            <div
               class={style_res.bermain}
               onClick={() => ch_kegiatan("Bulanan")}
             >
               <img src="/bermain.svg" alt="bermain" />
               <h2>Bulanan</h2>
-            </div> */}
+            </div>
           </div>
         </div>
 
