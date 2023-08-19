@@ -41,7 +41,7 @@ export default function Home() {
               mengubah cara tubuh dan otak bayi berkembang, yang dapat
               menyebabkan tantangan mental dan fisik bagi bayi.
             </p>
-            <a href="/Edukasi/index.html" className={style.hyperlink}>
+            <a href="/Edukasi" className={style.hyperlink}>
               Info Lebih Lanjut
             </a>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
               Visi Yayasan POTADS adalah menjadi pusat informasi dan konsultasi
               terlengkap tentang Down Syndrome di Indonesia.
             </p>
-            <a href="" className={style.hyperlink}>
+            <a href="/TentangKami" className={style.hyperlink}>
               Info Lebih Lanjut
             </a>
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
               Menyediakan informasi terkini tentang perkembangan Down Syndrome
               baik secara ilmiah maupun dari pengalaman orang lain.
             </p>
-            <a href="" className={style.hyperlink}>
+            <a href="/TentangKami" className={style.hyperlink}>
               Info Lebih Lanjut
             </a>
           </div>
@@ -120,7 +120,7 @@ export default function Home() {
               bahkan banyak yang berprestasi sehingga itu menjadi terlihat Keren
               / Istimewa
             </p>
-            <a href="" className={style.hyperlink}>
+            <a href="/TentangKami" className={style.hyperlink}>
               Info Lebih Lanjut
             </a>
           </div>
@@ -205,7 +205,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <a href="EventsPotads/" className={style.hyperlink}>
+        <a href="/Kegiatan" className={style.hyperlink}>
           Info Lebih Lanjut
         </a>
       </div>
@@ -216,9 +216,9 @@ export default function Home() {
         <div class={style.info}>
           <h1>Kontak Kami</h1>
           <div class={style.email}>
-            <a href="mailto:">
+            <a href="mailto:pikpotadsjabar@gmail.com">
               <img src="/gmail.svg" alt="gmail" />
-              example@gmail.com
+              pikpotadsjabar@gmail.com
             </a>
           </div>
           <div class={style.phone}>

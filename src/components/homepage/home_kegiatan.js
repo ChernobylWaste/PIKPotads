@@ -1,8 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "@/app/home.module.css";
 import style_res from "@/components/homepage/home_kegiatan.module.css";
+import { useState } from "react";
 
 export default function HomeKegiatan() {
+  const [keg, setKeg] = useState({
+    title: "Musik",
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+    nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+    sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+  });
+  const ch_kegiatan = (kegiatan) => {
+    setKeg({ ...keg, title: kegiatan });
+  };
   return (
     <>
       <div class={`${style_res.kegiatan}`}>
@@ -10,19 +24,31 @@ export default function HomeKegiatan() {
 
         <div className={style_res.scroll_able}>
           <div class={`${style_res.kategori} ${style_res.kategori}`}>
-            <div class={style_res.musik}>
+            <div class={style_res.musik} onClick={() => ch_kegiatan("Musik")}>
               <img src="/musik.svg" alt="musik" />
               <h2>Musik</h2>
             </div>
-            <div class={style_res.belajar}>
+
+            <div
+              class={style_res.belajar}
+              onClick={() => ch_kegiatan("Belajar")}
+            >
               <img src="/belajar.svg" alt="belajar" />
               <h2>Belajar</h2>
             </div>
-            <div class={style_res.bermain}>
+
+            <div
+              class={style_res.bermain}
+              onClick={() => ch_kegiatan("Bermain")}
+            >
               <img src="/bermain.svg" alt="bermain" />
               <h2>Bermain</h2>
             </div>
-            <div class={style_res.berteman}>
+
+            <div
+              class={style_res.berteman}
+              onClick={() => ch_kegiatan("Berteman")}
+            >
               <img src="/berteman.svg" alt="berteman" />
               <h2>Berteman</h2>
             </div>
@@ -31,16 +57,8 @@ export default function HomeKegiatan() {
 
         <div class={style_res.detail}>
           <div class={style_res.text}>
-            <h1>Musik</h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <h1>{keg.title}</h1>
+            <p>{keg.content}</p>
           </div>
 
           <div class={style_res.image}>
@@ -50,7 +68,7 @@ export default function HomeKegiatan() {
             />
           </div>
         </div>
-        <a href="Kegiatan/" className={style.hyperlink}>
+        <a href="/Kegiatan" className={style.hyperlink}>
           Info Lebih Lanjut
         </a>
       </div>

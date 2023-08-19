@@ -39,11 +39,12 @@
 .total_number {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 3vw;
   text-align: center;
   margin-top: 5vh;
 }
 
-.total_number div > h1 {
+.count > h1 {
   color: #585858;
   font-family: Abril Fatface;
   font-size: 50px;
@@ -52,7 +53,7 @@
   letter-spacing: -0.95px;
 }
 
-.total_number div > p {
+.count > p {
   color: #e21818;
   font-family: Rubik One;
   font-size: 30px;
@@ -74,17 +75,23 @@
 }
 
 @media (max-width: 1024px) {
+  .tim_grid {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+  }
+
+  .tim_grid_total > h1 {
+    display: none;
+  }
+
   .tim_grid_scroll {
     display: flex;
     overflow-x: auto;
   }
 
-  .tim_grid {
+  .tim_grid_image {
     display: flex;
     align-items: center;
-  }
-
-  .tim_grid > div {
-    width: 100%;
   }
 }

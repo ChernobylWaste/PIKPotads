@@ -108,4 +108,17 @@
 
     padding: 2vw;
   }
+
+  .kegiatan {
+    width: 95%;
+  }
+
+  .detail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    width: 100%;
+  }
 }
