@@ -9,9 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "PIK POTADS JABAR",
   description: "Persatuan Orang Tua Anak Down Syndrom",
-  icons: {
-    icon: "/Logo Potads.png",
-  },
 };
 
 export default function RootLayout({ children }) {
