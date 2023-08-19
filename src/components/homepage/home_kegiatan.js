@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function HomeKegiatan() {
   const [keg, setKeg] = useState({
-    title: "Musik",
+    title: "Rutin",
     content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
     enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -34,13 +34,13 @@ export default function HomeKegiatan() {
               <h2>Event</h2>
             </div>
 
-            <div
+            {/* <div
               class={style_res.bermain}
               onClick={() => ch_kegiatan("Bulanan")}
             >
               <img src="/bermain.svg" alt="bermain" />
               <h2>Bulanan</h2>
-            </div>
+            </div> */}
           </div>
         </div>
 
