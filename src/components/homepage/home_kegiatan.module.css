@@ -78,6 +78,10 @@
   background: #d9d9d9;
 }
 
+.kategori > div:hover {
+  background: rgba(0, 147, 221, 0.8);
+}
+
 .kategori div > h2 {
   color: #fff;
   font-family: Abril Fatface;
