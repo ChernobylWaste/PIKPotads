@@ -13,7 +13,7 @@ export default function Navbar() {
     <>
       <div className={style.donasi}>
         <a href="http://">
-          <h3>Donasi Klik Disini</h3>
+          <h2>Donasi Klik Disini</h2>
         </a>
       </div>
 

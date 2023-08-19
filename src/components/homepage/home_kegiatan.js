@@ -24,33 +24,22 @@ export default function HomeKegiatan() {
 
         <div className={style_res.scroll_able}>
           <div class={`${style_res.kategori} ${style_res.kategori}`}>
-            <div class={style_res.musik} onClick={() => ch_kegiatan("Musik")}>
+            <div class={style_res.musik} onClick={() => ch_kegiatan("Rutin")}>
               <img src="/musik.svg" alt="musik" />
-              <h2>Musik</h2>
+              <h2>Rutin</h2>
             </div>
 
-            <div
-              class={style_res.belajar}
-              onClick={() => ch_kegiatan("Belajar")}
-            >
+            <div class={style_res.belajar} onClick={() => ch_kegiatan("Event")}>
               <img src="/belajar.svg" alt="belajar" />
-              <h2>Belajar</h2>
+              <h2>Event</h2>
             </div>
 
             <div
               class={style_res.bermain}
-              onClick={() => ch_kegiatan("Bermain")}
+              onClick={() => ch_kegiatan("Bulanan")}
             >
               <img src="/bermain.svg" alt="bermain" />
-              <h2>Bermain</h2>
-            </div>
-
-            <div
-              class={style_res.berteman}
-              onClick={() => ch_kegiatan("Berteman")}
-            >
-              <img src="/berteman.svg" alt="berteman" />
-              <h2>Berteman</h2>
+              <h2>Bulanan</h2>
             </div>
           </div>
         </div>

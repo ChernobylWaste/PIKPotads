@@ -210,7 +210,7 @@ export default function Home() {
         </a>
       </div>
 
-      <Tim_home />
+      {/* <Tim_home /> */}
 
       <div class={style.contact}>
         <div class={style.info}>
