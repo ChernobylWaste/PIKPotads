@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <div className={style.donasi}>
-        <a href="http://">
+        <a href="https://docs.google.com/forms/d/1zJpofuOkMCzJK-nwrluYO84G0IdHdUDS4oAvR8uPiKI/edit">
           <h2>Donasi Klik Disini</h2>
         </a>
       </div>
