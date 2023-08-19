@@ -1,18 +1,23 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
     <>
       <footer>
-        <div class="footerContainer">
+        <div className="footerContainer">
           <br />
-          <div class="socialIcons">
+          <div className="socialIcons">
             <a href="">
-              <i class="fa-brands fa-instagram"></i>
+              {/* <i className="fa-brands fa-instagram"></i> */}
+              <FontAwesomeIcon icon={faInstagram} className="xl" />
             </a>
             <a href="">
-              <i class="fa-brands fa-whatsapp"></i>
+              {/* <i className="fa-brands fa-whatsapp"></i> */}
+              <FontAwesomeIcon icon={faWhatsapp} />
             </a>
           </div>
-          <div class="footerNav">
+          <div className="footerNav">
             <ul>
               <li>
                 <a href="/index.html">Beranda</a>
@@ -38,7 +43,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div class="footerBottom">
+        <div className="footerBottom">
           <p>&copy; PIK POTADS JABAR 2023</p>
         </div>
       </footer>
