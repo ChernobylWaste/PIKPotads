@@ -1,3 +1,16 @@
+.all_links {
+  display: flex;
+  align-items: center;
+  gap: 10vw;
+}
+
+.join_us {
+  border-radius: 5px;
+  background-color: #c0044c;
+  color: white;
+  padding: 1vw;
+}
+
 .line {
   width: 25px;
   height: 3px;
@@ -70,6 +83,12 @@
 
   .navbar > div {
     flex: 50%;
+  }
+
+  .all_links {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
   }
 
   .navigation {

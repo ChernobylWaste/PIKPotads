@@ -31,13 +31,19 @@ export default function Navbar() {
           <Image src={burger} alt="burger" width={60} height={60} />
         </button>
 
-        <div className={`${style.navigation} ${isActive ? "flex" : ""}`}>
-          <Link href="/">Beranda</Link>
-          <Link href="/Edukasi">Edukasi</Link>
-          <Link href="/TentangKami">Tentang</Link>
-          <Link href="/Kegiatan">Kegiatan</Link>
-          <Link href="/Tim">Tim</Link>
-          <Link href="/FAQ">FAQ</Link>
+        <div className={style.all_links}>
+          <div className={`${style.navigation} ${isActive ? "flex" : ""}`}>
+            <Link href="/">Beranda</Link>
+            <Link href="/Edukasi">Edukasi</Link>
+            <Link href="/TentangKami">Tentang</Link>
+            <Link href="/Kegiatan">Kegiatan</Link>
+            <Link href="/Tim">Tim</Link>
+            <Link href="/FAQ">FAQ</Link>
+          </div>
+
+          <Link href="/join">
+            <div className={style.join_us}>Join Us</div>
+          </Link>
         </div>
       </div>
     </>
