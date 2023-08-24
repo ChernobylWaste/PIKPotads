@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -10,11 +10,11 @@ export default function Footer() {
           <div className="socialIcons">
             <a href="">
               {/* <i className="fa-brands fa-instagram"></i> */}
-              <FontAwesomeIcon icon={faInstagram} className="xl" />
+              {/* <FontAwesomeIcon icon={faInstagram} className="xl" /> */}
             </a>
             <a href="">
               {/* <i className="fa-brands fa-whatsapp"></i> */}
-              <FontAwesomeIcon icon={faWhatsapp} />
+              {/* <FontAwesomeIcon icon={faWhatsapp} /> */}
             </a>
           </div>
           <div className="footerNav">

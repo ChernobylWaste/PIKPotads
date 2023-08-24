@@ -10,7 +10,7 @@ export default function Kegiatan() {
       {/* End of Banner */}
 
       {/* Start of Pendaftaran */}
-      <div class={ `container-fluid my-4 ${style.font}`}>
+      <div class={`container-fluid my-4 ${style.font}`}>
         <div
           class="card text-center"
           style={{ "background-color": "#24b8e5", color: "white" }}
@@ -61,7 +61,7 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/POTADS/Zoo/zoo (2).jpg"
+                src="/Kegiatan/Ipen/POTADS/Baksos/Baksos22 (2).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
@@ -99,7 +99,10 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "3.5vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "3.5vh" }}
+                >
                   DSAM
                 </h5>
               </div>
@@ -128,7 +131,10 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "3.5vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "3.5vh" }}
+                >
                   Hari Down Syndrom Dunia 2023
                 </h5>
               </div>
@@ -174,14 +180,17 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (2).jpg"
+                src="/Kegiatan/krutin/keterampilan/Proses/ls (8).png"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
-                  Pelatihan : Kelas Memasak
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
+                  Pelatihan : Keterampilan
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -190,7 +199,7 @@ export default function Kegiatan() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/krutin/Memasak/"
+                    href="/Kegiatan/krutin/Keterampilan"
                     style={{ color: "white", "text-decoration": "none" }}
                   >
                     Info Lebih Lanjut
@@ -209,7 +218,10 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
                   Play Class Usia 5 - 12 Tahun
                 </h5>
               </div>
@@ -238,7 +250,10 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
                   Pelatihan Seni
                 </h5>
               </div>
@@ -290,7 +305,10 @@ export default function Kegiatan() {
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
                   Pelatihan : Jumputan
                 </h5>
               </div>
@@ -313,13 +331,48 @@ export default function Kegiatan() {
           <div class="col">
             <div class="card">
               <img
+                src="/Kegiatan/kbulanan/cookingB1/Proses/ls (2).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px", "border-radius": "20" }}
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
+                  Pelatihan : Memasak
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/bulanan/Memasak"
+                    style={{ color: "white", "text-decoration": "none" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <img
                 src="/Kegiatan/kbulanan/Workshop/Fisiotherapy/Fisiotherapy (4).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px", "border-radius": "20" }}
               />
               <div class="card-body">
-                <h5 class="card-title text-xl" style={{ color: "blue", margin: "2vh" }}>
+                <h5
+                  class="card-title text-xl"
+                  style={{ color: "blue", margin: "2vh" }}
+                >
                   Workshops
                 </h5>
               </div>
