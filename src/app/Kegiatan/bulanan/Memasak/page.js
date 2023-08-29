@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "@/app/Kegiatan/kegiatan.module.css";
-export default function potadspusat() {
+export default function workshop() {
   return (
     <>
       {/* Banner */}
@@ -9,24 +9,21 @@ export default function potadspusat() {
 
       <div class={`container py-5 ${style.font}`}>
         <h1 class="text-center text-5xl" style={{ color: "#C01358" }}>
-          KEGIATAN BERSAMA POTADS PUSAT
+          PELATIHAN : KELAS MEMASAK
         </h1>
 
         <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/POTADS/Baksos/Baksos22 (2).jpg"
+                src="/Kegiatan/kbulanan/cookingB1/Proses/ls (1).jpg "
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5
-                  class="card-title"
-                  style={{ color: "blue", margin: "4.8vh" }}
-                >
-                  Bakti Sosial Perdosri 2022
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                  Pelatihan : Kelas Memasak Batch 1
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -35,7 +32,7 @@ export default function potadspusat() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/ipen/POTADS/Baksos/Perdosri22"
+                    href="/Kegiatan/bulanan/Memasak/MemasakBatch1/"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Info Lebih Lanjut
@@ -48,17 +45,14 @@ export default function potadspusat() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/Ipen/POTADS/Khitan/Khitan (1).jpg"
+                src="/Kegiatan/kbulanan/cookingB2/Proses/ls (10).jpg"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5
-                  class="card-title"
-                  style={{ color: "blue", margin: "4.8vh" }}
-                >
-                  Khitan Massal 2021
+                <h5 class="card-title" style={{ color: "blue", margin: "3vh" }}>
+                  Pelatihan : Kelas Memasak Batch 2
                 </h5>
               </div>
               <div class="mb-5 d-flex justify-content-around">
@@ -67,7 +61,7 @@ export default function potadspusat() {
                   style={{ "background-color": "blue" }}
                 >
                   <a
-                    href="/Kegiatan/ipen/POTADS/Khitan/2021"
+                    href="/Kegiatan/bulanan/Memasak/MemasakBatch2/"
                     style={{ textDecoration: "none", color: "white" }}
                   >
                     Info Lebih Lanjut

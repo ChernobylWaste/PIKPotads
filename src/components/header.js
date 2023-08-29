@@ -39,6 +39,7 @@ export default function Navbar() {
             <Link href="/Kegiatan">Kegiatan</Link>
             <Link href="/Tim">Tim</Link>
             <Link href="/FAQ">FAQ</Link>
+            <Link href="/Kontak/">Kontak</Link>
           </div>
 
           <Link href="/join">

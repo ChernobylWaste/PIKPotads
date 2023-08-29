@@ -4,9 +4,9 @@ import { Inter } from "next/font/google";
 import Navbar from "@/components/header";
 import Footer from "@/components/footer";
 
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false;
+// import "@fortawesome/fontawesome-svg-core/styles.css";
+// import { config } from "@fortawesome/fontawesome-svg-core";
+// config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
 

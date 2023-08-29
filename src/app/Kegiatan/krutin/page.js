@@ -16,74 +16,13 @@ export default function krutin() {
           <div class="col">
             <div class="card">
               <img
-                src="/Kegiatan/krutin/cookingB1/Proses/ls (1).jpg "
-                class="card-img-top"
-                alt="..."
-                style={{ padding: "20px" }}
-              />
-              <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Pelatihan : Kelas Memasak Batch 1
-                </h5>
-              </div>
-              <div class="mb-5 d-flex justify-content-around">
-                <button
-                  class="btn btn-secondary"
-                  style={{ "background-color": "blue" }}
-                >
-                  <a
-                    href="/Kegiatan/krutin/Memasak/MemasakBatch1"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    Info Lebih Lanjut
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
-                src="/Kegiatan/krutin/cookingB2/Proses/ls (10).jpg"
-                class="card-img-top"
-                alt="..."
-                style={{ padding: "20px" }}
-              />
-              <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
-                  Pelatihan : Kelas Memasak Batch 2
-                </h5>
-              </div>
-              <div class="mb-5 d-flex justify-content-around">
-                <button
-                  class="btn btn-secondary"
-                  style={{ "background-color": "blue" }}
-                >
-                  <a
-                    href="/Kegiatan/krutin/Memasak/MemasakBatch2"
-                    style={{ textDecoration: "none", color: "white" }}
-                  >
-                    Info Lebih Lanjut
-                  </a>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <img
                 src="/Kegiatan/krutin/keterampilan/Proses/ls (8).png"
                 class="card-img-top"
                 alt="..."
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5
-                  class="card-title"
-                  style={{ color: "blue", margin: "2vh" }}
-                >
+                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
                   Pelatihan : Keterampilan
                 </h5>
               </div>
@@ -114,7 +53,7 @@ export default function krutin() {
               <div class="card-body">
                 <h5
                   class="card-title"
-                  style={{ color: "blue", margin: "3.8vh" }}
+                  style={{ color: "blue", margin: "2vh" }}
                 >
                   Pelatihan Seni : Kendang
                 </h5>
@@ -146,7 +85,7 @@ export default function krutin() {
               <div class="card-body">
                 <h5
                   class="card-title"
-                  style={{ color: "blue", margin: "3.8vh" }}
+                  style={{ color: "blue", margin: "2vh" }}
                 >
                   Pelatihan Seni : Djembe
                 </h5>
@@ -176,7 +115,7 @@ export default function krutin() {
                 style={{ padding: "20px" }}
               />
               <div class="card-body">
-                <h5 class="card-title" style={{ color: "blue", margin: "2vh" }}>
+                <h5 class="card-title" style={{ color: "blue", margin: "1.9vh" }}>
                   Pelatihan Seni : Tari Kreasi Nasional
                 </h5>
               </div>

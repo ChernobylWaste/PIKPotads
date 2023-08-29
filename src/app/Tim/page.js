@@ -63,16 +63,6 @@ export default function tim() {
           </div>
         </div>
       </div>
-
-      <div style={{ textAlign: "center", margin: "20px" }}>
-        <a
-          href="https://docs.google.com/forms/d/1AHAxrIM-oR2cMBkNttrPs4ESx94iCoikQqga5oaiIwE/viewform?edit_requested=true"
-          class="btn btn-primary"
-          target="_blank"
-        >
-          Daftar untuk menjadi volunteer
-        </a>
-      </div>
     </>
   );
 }
