@@ -9,6 +9,11 @@
   background-color: #c0044c;
   color: white;
   padding: 1vw;
+  text-decoration: none;
+}
+
+.join_us:hover {
+  font-weight: 900;
 }
 
 .line {
@@ -88,14 +93,12 @@
   .all_links {
     display: flex;
     flex-direction: column;
-    align-items: end;
   }
 
   .navigation {
     display: none;
     flex-direction: column;
-    align-items: end;
-    padding-right: 4vw;
+    justify-content: flex-end;
   }
 
   .logo {
