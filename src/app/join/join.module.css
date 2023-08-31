@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
 .full_container {
   height: 80vh;
 }
@@ -15,6 +17,7 @@
   background-position: 0% 20%;
 
   color: beige;
+  font-family: "Oswald", sans-serif;
 }
 
 .container_content {
@@ -28,8 +31,7 @@
 }
 
 .daftar_anak {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 500;
 }
 
