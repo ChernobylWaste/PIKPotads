@@ -2,6 +2,8 @@
 
 .full_container {
   height: 80vh;
+  font-size: unset;
+  font-weight: unset;
 }
 
 .container_title {
