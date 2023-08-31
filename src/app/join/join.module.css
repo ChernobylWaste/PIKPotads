@@ -20,8 +20,41 @@
 .container_content {
   height: 70%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   text-align: center;
   justify-content: center;
   gap: 5vw;
+}
+
+.daftar_anak {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 500;
+}
+
+.link_list {
+  display: flex;
+  gap: 5px;
+
+  text-align: center;
+  justify-content: center;
+}
+
+.button_volunteer {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+
+  margin: auto;
+  width: 20vw;
+  height: 5vh;
+
+  background-color: #c0044c;
+  border-radius: 5px;
+}
+
+.button_volunteer:hover {
+  color: black;
+  background-color: aquamarine;
 }
