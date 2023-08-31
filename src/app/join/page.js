@@ -5,9 +5,7 @@ export default function Join() {
   return (
     <>
       <div className={`${style.full_container}`}>
-        <div className={`${style.container_title}`}>
-          <h1>Join us</h1>
-        </div>
+        <h1 className={`${style.container_title}`}>Join us</h1>
 
         <div className={`${style.container_content}`}>
           <div className={`${style.daftar_anak}`}>

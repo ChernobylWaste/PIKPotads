@@ -112,4 +112,8 @@
   .burger {
     display: flex;
   }
+
+  .join_us {
+    margin: 3vh;
+  }
 }
