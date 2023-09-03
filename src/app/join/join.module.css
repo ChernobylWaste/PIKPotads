@@ -56,6 +56,10 @@
 }
 
 .daftar_anak > h1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10vw;
+
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: xx-large;
