@@ -76,6 +76,38 @@ export default function potadspusat() {
               </div>
             </div>
           </div>
+
+          <div class="col">
+            <div class="card">
+              <img
+                src="/Kegiatan/Ipen/RTHDSD23/BBT/BBT (8).jpg"
+                class="card-img-top"
+                alt="..."
+                style={{ padding: "20px" }}
+              />
+              <div class="card-body">
+                <h5
+                  class="card-title"
+                  style={{ color: "blue", margin: "3vh" }}
+                >
+                  Road to HDSD 2023 : Bersih - Bersih Telinga
+                </h5>
+              </div>
+              <div class="mb-5 d-flex justify-content-around">
+                <button
+                  class="btn btn-secondary"
+                  style={{ "background-color": "blue" }}
+                >
+                  <a
+                    href="/Kegiatan/ipen/RTHDSD23/BBT"
+                    style={{ textDecoration: "none", color: "white" }}
+                  >
+                    Info Lebih Lanjut
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

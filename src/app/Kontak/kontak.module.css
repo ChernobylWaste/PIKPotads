@@ -1,0 +1,191 @@
+.katafotokiri {
+    color: #F5F5F5;
+    text-align: left;
+    font-family: "Montserrat";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 66px */
+    letter-spacing: 1px;
+    padding: 100px;
+  
+    width: 100%;
+    height: auto;
+    background-image: url("/kontak.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: fill;
+    background-blend-mode: multiply;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2vw;
+    margin: 5%;
+    width: 90%;
+    height: 50vh;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact > div {
+    border-radius: 20px;
+    background: #c0044c;
+  
+    padding: 3vh;
+    height: inherit;
+  }
+
+  .contact > .info {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+  }
+  
+  .contact > .info h1 {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.95px;
+  }
+  .info > .email,
+  .phone {
+    border-radius: 20px;
+    background: #ed709a;
+    margin: auto;
+    max-width: 100%;
+    padding: 2vh;
+    justify-content: center;
+  }
+  
+  .contact > .info a {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.475px;
+  
+    display: flex;
+    gap: 2vh;
+  }
+  
+  .contact > .info a:hover {
+    color: rgba(0, 147, 221, 0.8);
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.475px;
+  }
+  
+  .maps > iframe {
+    border-radius: 10px;
+    max-height: 100%;
+  } 
+
+  @media (max-width: 1024px) {
+    .welcome > h1 {
+      font-size: 30px;
+    }
+  
+    .general_content > div > h1 {
+      font-size: 30px;
+    }
+  
+    .content > p {
+      font-weight: unset;
+      font-size: 16px;
+    }
+  
+    .content a {
+      display: flex;
+      flex-direction: column;
+      font-weight: unset;
+      padding: 0.5vw;
+      border-radius: 5px;
+    }
+  
+    .scroll_able {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+  
+    .visi_misi {
+      display: flex;
+      align-items: center;
+    }
+  
+    .visi_misi div {
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+      width: 90vw;
+    }
+  
+    .events_scroll {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+    }
+  
+    .events {
+      display: flex;
+      align-items: center;
+    }
+  
+    .list {
+      width: 90vw;
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+    }
+  
+    .list > p {
+      width: auto;
+    }
+  
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+      margin: auto;
+      height: 100%;
+      padding-bottom: 3vh;
+    }
+  
+    .info {
+      display: flex;
+      align-items: center;
+      gap: 2vh;
+      width: 100%;
+    }
+  
+    .info > a {
+      font-size: 5px;
+      width: 100%;
+    }
+  
+    .maps {
+      width: 100%;
+      max-height: 100%;
+    }
+  
+    .maps > iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+    .info > .email,
+    .phone {
+      border-radius: 20px;
+      background: #ed709a;
+      margin: auto;
+      max-width: 100%;
+      padding: 2vh;
+      justify-content: center;
+    }
+  }
